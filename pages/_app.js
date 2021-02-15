@@ -1,13 +1,18 @@
+import "../styles/icons.css";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   html{
     --color--dark-grey: #2D3142;
     --color--light-grey: #F4F5F6;
-    --color--blue: #0496FF;
-    --color--green: #53EE4D;
-    --color--rosa: #FC4264;
+    --developer: #0496FF;
+    --default: #53EE4D;
+    --designer: #FC4264;
   }
+  ::selection {
+  color: #fff;
+  background: var(--color--dark-grey);
+}
   * {
     box-sizing: border-box;
   }
@@ -17,6 +22,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
     font-family: 'Quero sans';
+    font-size:30px;
   }
   html, body {
     min-height: 100vh;
@@ -28,8 +34,12 @@ const GlobalStyle = createGlobalStyle`
   #__next {
     flex: 1;
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
   }
+  .container{
+    width:100%;
+  }
+
 `;
 
 export default function App({ Component, pageProps }) {

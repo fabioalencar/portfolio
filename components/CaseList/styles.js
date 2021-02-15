@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { device } from "../Config/Breakpoints";
+
 const Container = styled.section`
   padding: 0 12vh;
   ul {
@@ -16,6 +18,11 @@ const Container = styled.section`
       align-items: left;
       justify-content: center;
     }
+  }
+
+  @media ${device.mobileL} {
+    padding: 0;
+    margin: 30px;
   }
 `;
 

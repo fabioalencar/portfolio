@@ -6,7 +6,7 @@ import CaseList from "./../components/CaseList";
 export default function Home() {
   return (
     <div className="container">
-      <Head title="UX Designer used to work remotely." />
+      <Head title="Fábio Alencar - Senior Product Designer and Frontend Developer." />
       <Header />
       <Banner />
       <CaseList />

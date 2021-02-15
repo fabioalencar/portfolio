@@ -11,21 +11,20 @@ const Container = styled.section`
   color: var(--color--dark-grey);
   justify-content: center;
   h1 {
-    font-size: 120px;
+    font-size: 3em;
     margin-bottom: 40px;
     font-weight: normal;
     span {
-      background-color: var(--color--green);
+      background-color: var(--default);
       border-radius: 10px;
       padding: 5px 10px;
     }
   }
   .Typewriter {
-    font-size: 55px;
+    font-size: 1.8em;
   }
 
   @media ${device.mobileL} {
-    text-align: left;
     padding: 50px;
     overflow: hidden;
     height: 100vh;
@@ -38,6 +37,7 @@ const Container = styled.section`
     }
     .Typewriter {
       font-size: 1.8rem;
+      text-align: left;
     }
   }
   @media ${device.mobileM} {

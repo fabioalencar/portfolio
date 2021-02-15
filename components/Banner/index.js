@@ -16,16 +16,15 @@ export default function banner() {
               .typeString("Creative Technologist, Product")
               .pauseFor(100)
               .deleteChars(7)
-              .typeString("Senior Product Designer and Frontend Developer. ")
-
+              .typeString("Senior Product Designer and Frontend Developer.")
               .pauseFor(3000)
-              .deleteAll()
+              .deleteChars(78)
               .typeString("Eager for knowledge.")
               .pauseFor(500)
               .deleteAll()
               .typeString("Entrepreneur and team leader for 8 years.")
               .pauseFor(1000)
-              .deleteAll()
+              .deleteChars(41)
               .typeString(
                 "Specialist in the convergence between business, design and technology."
               )
@@ -35,7 +34,7 @@ export default function banner() {
           options={{
             autoStart: true,
             loop: true,
-            delay: 75,
+            delay: 50,
             deleteSpeed: 5,
           }}
         />
