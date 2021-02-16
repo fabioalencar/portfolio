@@ -3,9 +3,7 @@ import { device } from "../Config/Breakpoints";
 
 const Container = styled.header`
   box-sizing: border-box;
-  footer {
-    display: none;
-  }
+
   @keyframes menu {
     from {
       opacity: 0;

@@ -66,7 +66,7 @@ const Header = () => {
                 <Icon icon="icon-github" className="sm" />
               </a>
             </li>
-            <li className="hideMobile">
+            {/*<li className="hideMobile">
               <a
                 href="https://dribbble.com/fabioalencar"
                 target="_blank"
@@ -74,8 +74,8 @@ const Header = () => {
               >
                 <Icon icon="icon-dribbble" className="sm" />
               </a>
-            </li>
-            <li>
+            </li> */}
+            <li className="hideMobile">
               <a
                 href="https://www.linkedin.com/in/fabioalencaresouza/"
                 target="_blank"
@@ -84,35 +84,16 @@ const Header = () => {
                 <Icon icon="icon-linkedin" className="sm" />
               </a>
             </li>
+            <li>
+              <a
+                href="https://api.whatsapp.com/send?phone=5511968884933&text=Oi%20F%C3%A1bio!"
+                target="_blank"
+                rel="nofollow me"
+              >
+                <Icon icon="icon-whatsapp" className="sm" />
+              </a>
+            </li>
           </ul>
-          {/* <ul className="languages">
-           <li>
-              <Linki href="/about">
-                <a>About</a>
-              </Linki>
-            </li>
-            <li>
-              <Linki href="/product-designer">
-                <a>Designer</a>
-              </Linki>
-            </li>
-            <li>
-              <Linki href="/frontend-developer">
-                <a>Developer</a>
-              </Linki>
-            </li>
-           
-            <li>
-              <Linki href="/about" locale="en-US">
-                <a>en</a>
-              </Linki>
-            </li>
-            <li>
-              <Linki href="" locale="pt-BR">
-                <a>pt-br</a>
-              </Linki>
-            </li> 
-          </ul>*/}
         </section>
         <nav>
           <ul>
@@ -142,7 +123,7 @@ const Header = () => {
               </Linki>
             </li>
             <li>
-              <Linki href="/frontend-developer">
+              <Linki href="/cv_fabio-alencar.pdf">
                 <a>Resumé</a>
               </Linki>
             </li>

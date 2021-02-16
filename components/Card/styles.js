@@ -10,6 +10,7 @@ const Container = styled.div`
   text-align: left;
   transition: all 0.3s;
   font-size: 0.7em;
+  display: flex;
   :hover {
     background: #fff;
     color: var(--color--dark-grey);
@@ -19,6 +20,24 @@ const Container = styled.div`
     display: inline-block;
     font-size: 0.7em;
     margin-top: 5px;
+  }
+  img {
+    border-radius: 10px;
+    border: none;
+    box-shadow: none;
+  }
+  span {
+    font-size: 0.8em;
+    width: 70%;
+    margin: 20px;
+    strong {
+      color: #fff;
+    }
+  }
+  p {
+    max-width: inherit;
+    margin: auto 0;
+    text-align: left;
   }
 `;
 

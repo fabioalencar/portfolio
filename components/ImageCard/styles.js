@@ -14,8 +14,10 @@ const Container = styled.div`
     position: absolute;
     font-size: 0.3em;
     top: -20px;
-    left: ${(props) => (props.context == "image-right" ? "inherit" : "210px")};
-    right: ${(props) => (props.context == "image-right" ? "10px" : "inherit")};
+    left: ${(props) =>
+      props.className == "image-right" ? "inherit" : "210px"};
+    right: ${(props) =>
+      props.className == "image-right" ? "10px" : "inherit"};
   }
   div:first-child {
     background: var(--color--dark-grey);
@@ -39,13 +41,22 @@ const Container = styled.div`
       margin-bottom: 10px;
     }
     p {
-      font-size: 0.7em;
+      font-size: 0.6em;
       margin: 10px 0;
     }
     span {
       font-size: 0.5em;
       strong {
         color: var(--color-dark-grey);
+      }
+    }
+  }
+  @media ${device.tablet} {
+    .text {
+      max-width: 220px;
+      margin: 50px;
+      h3 {
+        font-size: 0.8em;
       }
     }
   }

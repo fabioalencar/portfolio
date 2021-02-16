@@ -2,6 +2,8 @@ import React from "react";
 import Container from "./styles";
 import Typewriter from "typewriter-effect";
 
+import Button from "./../Button";
+
 export default function banner() {
   return (
     <Container>
@@ -38,6 +40,8 @@ export default function banner() {
             deleteSpeed: 5,
           }}
         />
+        <br />
+        <Button href="#">Work</Button>
       </div>
     </Container>
   );

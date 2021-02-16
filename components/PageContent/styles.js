@@ -60,6 +60,76 @@ const Container = styled.section`
       color: var(--color--dark-grey);
     }
   }
+  .knowledgeCards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 940px;
+    margin: auto;
+    h4 {
+      display: block;
+      width: 100%;
+      font-family: "Quero sans", sans-serif;
+    }
+    .two-columns {
+      width: 455px;
+      margin-bottom: 30px;
+      :hover {
+        background: #fff;
+        color: var(--color--dark-grey);
+        strong {
+          color: var(--color--dark-grey);
+        }
+      }
+    }
+    .two-columns:nth-child(2) {
+      box-shadow: 15px 15px var(--developer);
+    }
+    .two-columns:nth-child(3) {
+      box-shadow: 15px 15px var(--designer);
+    }
+    .two-columns:nth-child(5) {
+      box-shadow: 15px 15px var(--developer);
+    }
+    .two-columns:nth-child(4) {
+      box-shadow: 15px 15px var(--designer);
+    }
+  }
+
+  .stripe {
+    background: url(pattern.svg) var(--default) repeat;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    margin: 50px -30px;
+    position: relative;
+    h4 {
+      font-family: "Quero sans", sans-serif;
+      font-weight: bold;
+      font-size: 1.5em;
+      margin: 0px;
+    }
+    p {
+      font-size: 0.7em;
+    }
+    .cancelled {
+      opacity: 0.5;
+      h4 {
+        text-decoration: line-through;
+      }
+    }
+    small {
+      position: absolute;
+      bottom: -25px;
+      font-size: 0.35em;
+      left: 0;
+      right: 0;
+      text-align: center;
+      strong {
+        color: var(--color--dark-grey);
+      }
+    }
+  }
   .storytelling {
     padding: 50px 80px;
   }
@@ -171,6 +241,14 @@ const Container = styled.section`
       .bg {
         font-size: 2em;
       }
+    }
+  }
+  @media ${device.tablet} {
+    .knowledgeCards {
+      width: 300px;
+    }
+    .storytelling {
+      width: 300px;
     }
   }
   @media ${device.mobileM} {

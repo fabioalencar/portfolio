@@ -1,5 +1,6 @@
 import "../styles/icons.css";
 import { createGlobalStyle } from "styled-components";
+import { AnimatePresence } from "framer-motion";
 
 const GlobalStyle = createGlobalStyle`
   html{
@@ -46,7 +47,9 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <GlobalStyle />
-      <Component {...pageProps} />
+      <AnimatePresence exitBeforeEnter>
+        <Component {...pageProps} />
+      </AnimatePresence>
     </>
   );
 }
