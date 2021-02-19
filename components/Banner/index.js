@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "./styles";
 import Typewriter from "typewriter-effect";
-
 import Button from "./../Button";
 
 export default function banner() {
@@ -27,6 +26,12 @@ export default function banner() {
               .typeString("Entrepreneur and team leader for 8 years.")
               .pauseFor(1000)
               .deleteChars(41)
+              .typeString("Working remotely from São Paulo, Brazil.")
+              .pauseFor(1000)
+              .deleteChars(40)
+              .typeString("Unicorn!")
+              .pauseFor(500)
+              .deleteChars(8)
               .typeString(
                 "Specialist in the convergence between business, design and technology."
               )
@@ -40,8 +45,11 @@ export default function banner() {
             deleteSpeed: 5,
           }}
         />
-        <br />
-        <Button href="#">Work</Button>
+        <div className="ctas">
+          <Button href="/#cases" scroller>
+            Work
+          </Button>
+        </div>
       </div>
     </Container>
   );

@@ -29,6 +29,9 @@ const Container = styled.section`
     max-width: 900px;
     margin: auto;
   }
+  .title-cases {
+    font-size: 3em;
+  }
   .subtitle {
     font-size: 1.2em;
     text-align: center;
@@ -101,7 +104,7 @@ const Container = styled.section`
     display: flex;
     justify-content: space-between;
     padding: 50px 100px;
-    margin: 50px -30px;
+    margin: 50px 0;
     position: relative;
     h4 {
       font-family: "Quero sans", sans-serif;
@@ -130,9 +133,6 @@ const Container = styled.section`
       }
     }
   }
-  .storytelling {
-    padding: 50px 80px;
-  }
   .storytelling > div:nth-child(1),
   .storytelling > div:nth-child(2) {
     div {
@@ -142,12 +142,22 @@ const Container = styled.section`
     }
   }
   .storytelling {
+    padding: 50px 80px;
     width: 990px;
     margin: auto;
     .text {
       width: 400px;
+
       p {
         font-size: 0.6em;
+      }
+    }
+    .image-right {
+      .text {
+        align-items: flex-end;
+        h3 {
+          max-width: 315px;
+        }
       }
     }
   }
@@ -195,7 +205,64 @@ const Container = styled.section`
       box-shadow: 6px 7px var(${(props) => props.className});
     }
   }
+
+  .case-content {
+    .showcase {
+      border-radius: 10px;
+    }
+    .subtitle {
+      margin: 50px auto;
+      font-size: 1em;
+    }
+  }
+  .case-textblock {
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+    h3 {
+      font-size: 0.9em;
+      min-width: 30%;
+      padding: 0 50px 30px 100px;
+    }
+    .text {
+      font-size: 0.7em;
+      align-items: center;
+      padding: 30px 50px 30px 0;
+      max-width: 65%;
+      p {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .image-full {
+    div {
+      border-radius: 10px;
+    }
+  }
+  @media ${device.tablet} {
+    .knowledgeCards {
+      width: 300px;
+    }
+    .storytelling {
+      width: 300px;
+    }
+  }
+
   @media ${device.mobileL} {
+    .stripe {
+      flex-direction: column;
+      padding: 30px;
+      border-radius: 10px;
+      h4 {
+        font-size: 1em;
+      }
+      div {
+        margin: 30px 0;
+      }
+      small {
+        bottom: -40px;
+      }
+    }
     height: auto;
     padding: 0em;
     margin-top: 60px;
@@ -205,7 +272,7 @@ const Container = styled.section`
       margin: 0;
       justify-content: center;
     }
-    section {
+    section:first-child {
       height: 100vh;
     }
     h1 {
@@ -228,27 +295,35 @@ const Container = styled.section`
     }
     .storytelling {
       width: 100%;
-      margin: auto;
+      margin: 50px auto 0;
+      padding: 0;
+      div {
+        margin: 0 0 40px;
+        div:first-child {
+          max-height: 215px;
+        }
+      }
       .text {
         width: 100%;
+        text-align: center;
         p {
           font-size: 0.6em;
         }
       }
+      .image-right {
+        .text {
+          align-items: stretch;
+        }
+      }
+    }
+    .social-proof {
+      padding: 0;
     }
     .icon-list {
       max-width: auto;
       .bg {
         font-size: 2em;
       }
-    }
-  }
-  @media ${device.tablet} {
-    .knowledgeCards {
-      width: 300px;
-    }
-    .storytelling {
-      width: 300px;
     }
   }
   @media ${device.mobileM} {

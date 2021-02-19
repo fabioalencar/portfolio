@@ -1,4 +1,4 @@
-import Head from "./../../components/Config/Head";
+import Head from "./../../components/config/ConfigHead";
 import Header from "./../../components/Header";
 import Banner from "./../../components/Banner";
 import CaseList from "./../../components/CaseList";

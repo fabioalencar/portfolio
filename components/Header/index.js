@@ -4,6 +4,7 @@ import Container from "./styles";
 import Linki from "../Config/Link";
 import { useRouter } from "next/router";
 import Icon from "../Icon";
+import smoothScroller from "../utils/smoothScroll";
 
 const Header = () => {
   const router = useRouter();
@@ -44,9 +45,19 @@ const Header = () => {
     <Container>
       <div className={`${className} ${menuStatus ? "on" : "off"}`}>
         <section className="topbar">
+          <a
+            href="/#cases"
+            onClick={() => {
+              smoothScroller("/#cases");
+            }}
+            className="down"
+          >
+            <Icon icon="icon-Down" className="bg" />
+          </a>
           <div className="button">
             <button onClick={openMenu} className="">
-              <img src="menu.svg" />
+              <Icon icon="icon-menu" className="bg" />
+              <Icon icon="icon-close" className="bg" />
             </button>
           </div>
           <Linki href="/">
@@ -103,11 +114,6 @@ const Header = () => {
               </Linki>
             </li>
             <li>
-              <Linki href="/#work">
-                <a>Work</a>
-              </Linki>
-            </li>
-            <li>
               <Linki href="/about">
                 <a>About</a>
               </Linki>
@@ -123,9 +129,9 @@ const Header = () => {
               </Linki>
             </li>
             <li>
-              <Linki href="/cv_fabio-alencar.pdf">
-                <a>Resumé</a>
-              </Linki>
+              <a href="/cv_fabio-alencar.pdf" target="_blank">
+                Resumé
+              </a>
             </li>
           </ul>
           <Footer />

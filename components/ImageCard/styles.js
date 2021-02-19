@@ -55,9 +55,25 @@ const Container = styled.div`
     .text {
       max-width: 220px;
       margin: 50px;
+      text-align: left;
       h3 {
         font-size: 0.8em;
       }
+    }
+  }
+  @media ${device.mobileL} {
+    display: block;
+    .text {
+      margin: 0 0 80px;
+      max-width: 100%;
+    }
+    :before {
+      content: "${(props) => props.imageLabel}";
+      top: -20px;
+      left: 10px;
+      right: inherit;
+      width: 200px;
+      text-align: left;
     }
   }
 `;

@@ -12,7 +12,7 @@ import GoogleFonts from "next-google-fonts";
  * );
  */
 
-const Head = ({ children, title }) => (
+const ConfigHead = ({ children, title }) => (
   <React.Fragment>
     <link rel="icon" href="/favicon.ico" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -29,4 +29,4 @@ const Head = ({ children, title }) => (
   </React.Fragment>
 );
 
-export default Head;
+export default ConfigHead;

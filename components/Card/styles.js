@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../Config/Breakpoints";
 
 const Container = styled.div`
   background: var(--color--dark-grey);
@@ -38,6 +39,18 @@ const Container = styled.div`
     max-width: inherit;
     margin: auto 0;
     text-align: left;
+  }
+
+  @media ${device.mobileL} {
+    padding: 20px;
+    span {
+      font-size: 0.6em;
+      width: 60%;
+      margin: 20px 0 20px 20px;
+      strong {
+        color: #fff;
+      }
+    }
   }
 `;
 

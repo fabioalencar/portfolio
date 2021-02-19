@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Head from "./../components/Config/Head";
+import ConfigHead from "./../components/config/ConfigHead";
 import Header from "./../components/Header";
 import PageContent from "./../components/PageContent";
 import Icon from "./../components/Icon";
@@ -23,7 +23,7 @@ const homeVariants = {
 export default function Home() {
   return (
     <div className="container">
-      <Head title="Senior Product Designer - Fábio Alencar" />
+      <ConfigHead title="Senior Product Designer - Fábio Alencar" />
       <Header />
       <motion.div initial="exit" animate="enter" exit="exit">
         <motion.div variants={homeVariants}>
@@ -47,9 +47,9 @@ export default function Home() {
                 <Icon icon="icon-contrast" className="bg" />
               </div>
               <p className="keywords">
-                UX, UI, Prototyping, Research, User Flows, Wireframing, Design
-                Thinking, Figma, Adobe Suite, Design Ops, Product Design
-                Leadership.
+                UX, UI, Prototyping, Research, User Flows, Typography,
+                Wireframing, Design Thinking, Figma, Adobe Suite, Design Ops,
+                Product Design Leadership, Mobile Design.
               </p>
 
               <h2>
@@ -112,11 +112,7 @@ export default function Home() {
               </div>
             </section>
             <section className="social-proof">
-              <p>
-                "In addition to delivering creative and functional options, he
-                provides extremely human support!"
-              </p>
-              <br />
+              <h3>What people say about me:</h3>
               <ImageCard>
                 <Image
                   src="/images/juliana.jpg"
@@ -156,7 +152,8 @@ export default function Home() {
                     of what is or is not in the proposal."
                   </p>
                   <span>
-                    <strong>Darlan Duarte</strong> - Enterpreneur
+                    <strong>Darlan Duarte</strong> - Enterpreneur, Runplace and
+                    Pacefit
                   </span>
                 </div>
               </ImageCard>
@@ -176,7 +173,8 @@ export default function Home() {
                     other virtues."
                   </p>
                   <span>
-                    <strong>Gisele Paiva</strong> - Enterpreneur
+                    <strong>Gisele Paiva</strong> - Enterpreneur, Confetti
+                    Agência
                   </span>
                 </div>
               </ImageCard>

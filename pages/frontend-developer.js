@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Head from "./../components/Config/Head";
+import ConfigHead from "./../components/config/ConfigHead";
 import Header from "./../components/Header";
 import PageContent from "./../components/PageContent";
 import Icon from "./../components/Icon";
@@ -23,7 +23,7 @@ const homeVariants = {
 export default function Home() {
   return (
     <div className="container">
-      <Head title="Senior Frontend Developer- Fábio Alencar" />
+      <ConfigHead title="Senior Frontend Developer- Fábio Alencar" />
       <Header />
       <motion.div initial="exit" animate="enter" exit="exit">
         <motion.div variants={homeVariants}>
@@ -46,8 +46,8 @@ export default function Home() {
                 <Icon icon="icon-api" className="bg" />
               </div>
               <p className="keywords">
-                Frontend, Javascript, PHP, ReactJs, Node.js, Next.js, Gatsby,
-                Wordpress, Docker, Git, APIs.
+                Frontend, HTML, CSS, Javascript, PHP, ReactJs, Node.js, Next.js,
+                Gatsby, Wordpress, Docker, Git, APIs, AWS, Firebase, Scrum.
               </p>
 
               <h2>
@@ -63,7 +63,7 @@ export default function Home() {
                 <Card>
                   <p>
                     <strong>Javascript Development</strong> (ReactJs, Next.js,
-                    Gatsby, Node and Empress).
+                    Gatsby, Node and Express).
                   </p>
                 </Card>
                 <Card>
@@ -102,39 +102,13 @@ export default function Home() {
               </div>
             </section>
             <section className="social-proof">
-              <p>
-                "In addition to delivering creative and functional options, he
-                provides extremely human support!"
-              </p>
-              <br />
+              <h3>What people say about me:</h3>
               <ImageCard>
                 <Image
-                  src="/images/juliana.jpg"
-                  alt="Juliana"
+                  src="/images/arlindo.png"
+                  alt="Arlindo"
                   width={360}
                   height={360}
-                />
-                <div className="text">
-                  <h3>
-                    “He is flexible and always willing to solve problems.”
-                  </h3>
-                  <p>
-                    "Because of his work, we are able to publicize with quality
-                    the work of 31 impact organizations that we accelerate.
-                    Fábio is flexible and always willing to solve problems and
-                    develop solutions to our challenges."
-                  </p>
-                  <span>
-                    <strong>Juliana Gouveia</strong> - Glocal Director
-                  </span>
-                </div>
-              </ImageCard>
-              <ImageCard className="image-right">
-                <Image
-                  src="/images/darlan.jpg"
-                  alt="Darlan Duarte"
-                  width={360}
-                  height={397}
                 />
                 <div className="text">
                   <h3>“Fábio is excellent!”</h3>
@@ -142,18 +116,41 @@ export default function Home() {
                     "I've been working with him for a few years now. In addition
                     to delivering creative and functional options, he provides
                     extremely human support, looking for the best for the
-                    customer and always making necessary adjustments, regardless
-                    of what is or is not in the proposal."
+                    customer and always making necessary adjustments."
                   </p>
                   <span>
-                    <strong>Darlan Duarte</strong> - Enterpreneur
+                    <strong>Arlindo Cardarett</strong> - Executive C-level in
+                    Higher Education
                   </span>
                 </div>
               </ImageCard>
+              <ImageCard className="image-right">
+                <Image
+                  src="/images/joyce.png"
+                  alt="Joyce"
+                  width={360}
+                  height={360}
+                />
+                <div className="text">
+                  <h3>“I highly recommend”</h3>
+                  <p>
+                    "Fábio was one of the best professionals I worked with in
+                    the last 13 years. He has many important skills such as
+                    leadership, communication, "procedural thinking",
+                    organization and self-motivation. I highly recommend Fábio
+                    and would like to work with him again, anywhere, anytime!"
+                  </p>
+                  <span>
+                    <strong>Joyce Batista</strong> - Marketing Coordinator Grupo
+                    Santa Joana
+                  </span>
+                </div>
+              </ImageCard>
+
               <ImageCard>
                 <Image
-                  src="/images/gisele.jpg"
-                  alt="Gisele Paiva"
+                  src="/images/raphaelly.png"
+                  alt="Raphaelly Bragança"
                   width={360}
                   height={360}
                 />
@@ -166,7 +163,8 @@ export default function Home() {
                     other virtues."
                   </p>
                   <span>
-                    <strong>Gisele Paiva</strong> - Enterpreneur
+                    <strong>Raphaelly Bragança</strong> - Head of Growth and
+                    Commercial Strategy Ifood
                   </span>
                 </div>
               </ImageCard>

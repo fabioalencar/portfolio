@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Head from "./../components/Config/Head";
+import ConfigHead from "./../components/config/ConfigHead";
 import Header from "./../components/Header";
 import PageContent from "./../components/PageContent";
 import ImageCard from "./../components/ImageCard";
@@ -23,7 +23,7 @@ const homeVariants = {
 export default function Home() {
   return (
     <div className="container">
-      <Head title="Who is Fábio Alencar?" />
+      <ConfigHead title="Who is Fábio Alencar?" />
       <Header />
       <motion.div initial="exit" animate="enter" exit="exit">
         <motion.div variants={homeVariants}>
@@ -92,8 +92,9 @@ export default function Home() {
                     building digital products.
                   </h3>
                   <p>
-                    Entrepreneur and team leader for 8 years. Creative
-                    Technologist, Product Designer and Frontend Developer.
+                    Entrepreneur and team leader for 8 years. Used to working
+                    remotely. Born in Rio de Janeiro and living in São Paulo,
+                    Brazil.
                   </p>
                 </div>
               </ImageCard>
@@ -163,7 +164,7 @@ export default function Home() {
             </section>
             <section className="stripe">
               <div>
-                <h4>“He stomps!”</h4>
+                <h4>“He is awesome!”</h4>
                 <p>Ex-boss.</p>
               </div>
               <div>
@@ -230,10 +231,7 @@ export default function Home() {
                   height={239}
                 />
                 <div className="text">
-                  <h3>
-                    Best friends
-                    <br /> and lovers.
-                  </h3>
+                  <h3>Best friends and lovers.</h3>
                   <p>Believe me we met since she was born.</p>
                 </div>
               </ImageCard>

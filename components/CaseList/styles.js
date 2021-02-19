@@ -6,7 +6,7 @@ const Container = styled.section`
   padding: 0 12vh;
   ul {
     padding: 0;
-    margin: 0;
+    margin: 0 0 30px;
     li {
       list-style: none;
       background: var(--color--dark-grey);

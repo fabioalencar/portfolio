@@ -5,7 +5,7 @@ const Container = styled.section`
   display: flex;
   flex-direction: column;
   max-width: 1200px;
-  height: 700px;
+  height: 800px;
   margin: auto;
   text-align: center;
   color: var(--color--dark-grey);
@@ -22,12 +22,19 @@ const Container = styled.section`
   }
   .Typewriter {
     font-size: 1.8em;
+    min-height: 150px;
   }
-
+  .ctas {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 30px;
+  }
   @media ${device.mobileL} {
     padding: 50px;
     overflow: hidden;
     height: 100vh;
+    text-align: left;
     h1 {
       font-size: 3.8rem;
       span {
@@ -38,6 +45,8 @@ const Container = styled.section`
     .Typewriter {
       font-size: 1.8rem;
       text-align: left;
+
+      min-height: 160px;
     }
   }
   @media ${device.mobileM} {
