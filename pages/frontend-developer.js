@@ -5,28 +5,17 @@ import PageContent from "./../components/PageContent";
 import Icon from "./../components/Icon";
 import Card from "./../components/Card";
 import ImageCard from "./../components/ImageCard";
+import CaseList from "./../components/CaseList";
 import { motion } from "framer-motion";
+import { variants } from "../components/Config/Motion";
 
-let easing = [0.175, 0.85, 0.42, 0.96];
-
-const homeVariants = {
-  exit: { y: 150, opacity: 0, transition: { duration: 0.5, ease: easing } },
-  enter: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 0.5,
-      ease: easing,
-    },
-  },
-};
 export default function Home() {
   return (
     <div className="container">
       <ConfigHead title="Senior Frontend Developer- Fábio Alencar" />
       <Header />
       <motion.div initial="exit" animate="enter" exit="exit">
-        <motion.div variants={homeVariants}>
+        <motion.div variants={variants}>
           <PageContent context="--developer">
             <header>
               <h1 className="title">
@@ -126,6 +115,28 @@ export default function Home() {
               </ImageCard>
               <ImageCard className="image-right">
                 <Image
+                  src="/images/raphaelly.png"
+                  alt="Raphaelly Bragança"
+                  width={360}
+                  height={360}
+                />
+                <div className="text">
+                  <h3>“True team player!”</h3>
+                  <p>
+                    "Fábio is a versatile professional with deep knowledge in
+                    design, development and digital marketing, which makes up a
+                    different profile in the market. With high execution power,
+                    natural entrepreneurship and excellent relationship, Fábio
+                    is a true team player."
+                  </p>
+                  <span>
+                    <strong>Raphaelly Bragança</strong> - Head of Growth and
+                    Commercial Strategy Ifood
+                  </span>
+                </div>
+              </ImageCard>
+              <ImageCard>
+                <Image
                   src="/images/joyce.png"
                   alt="Joyce"
                   width={360}
@@ -146,30 +157,11 @@ export default function Home() {
                   </span>
                 </div>
               </ImageCard>
-
-              <ImageCard>
-                <Image
-                  src="/images/raphaelly.png"
-                  alt="Raphaelly Bragança"
-                  width={360}
-                  height={360}
-                />
-                <div className="text">
-                  <h3>“Easy relationship”</h3>
-                  <p>
-                    "I found a professional dedicated to seeking the best
-                    solutions, easy relationship, high commitment to deliveries,
-                    flexibility in negotiations and co-creation moments, among
-                    other virtues."
-                  </p>
-                  <span>
-                    <strong>Raphaelly Bragança</strong> - Head of Growth and
-                    Commercial Strategy Ifood
-                  </span>
-                </div>
-              </ImageCard>
             </section>
           </PageContent>
+          <section>
+            <CaseList />
+          </section>
         </motion.div>
       </motion.div>
     </div>

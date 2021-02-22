@@ -4,9 +4,9 @@ import Container from "./styles";
 import Linki from "../Config/Link";
 import { useRouter } from "next/router";
 import Icon from "../Icon";
-import smoothScroller from "../utils/smoothScroll";
+import MouseFollow from "../MouseFollow";
 
-const Header = () => {
+const Header = (props) => {
   const router = useRouter();
 
   let className = "";
@@ -43,19 +43,12 @@ const Header = () => {
   };
   return (
     <Container>
-      <div className={`${className} ${menuStatus ? "on" : "off"}`}>
+      <div className={`${className} ${menuStatus ? "on" : "off"} header`}>
+        <span className="bg-menu"></span>
         <section className="topbar">
-          <a
-            href="/#cases"
-            onClick={() => {
-              smoothScroller("/#cases");
-            }}
-            className="down"
-          >
-            <Icon icon="icon-Down" className="bg" />
-          </a>
-          <div className="button">
-            <button onClick={openMenu} className="">
+          <div className="button hoverable" id="menu">
+            {/* <MouseFollow />*/}
+            <button onClick={openMenu}>
               <Icon icon="icon-menu" className="bg" />
               <Icon icon="icon-close" className="bg" />
             </button>
@@ -106,6 +99,7 @@ const Header = () => {
             </li>
           </ul>
         </section>
+
         <nav>
           <ul>
             <li>
@@ -136,6 +130,8 @@ const Header = () => {
           </ul>
           <Footer />
         </nav>
+
+        <span className="bg-menu-after"></span>
       </div>
     </Container>
   );

@@ -14,12 +14,12 @@ const Container = styled.header`
       margin-left: 0;
     }
   }
-  @keyframes bg-animation {
+  @keyframes bg {
     100% {
       background-position: -3000px -3000px;
     }
   }
-  div {
+  .header {
     nav {
       display: none;
       position: fixed;
@@ -73,7 +73,6 @@ const Container = styled.header`
             font-size: 1.8em;
             text-decoration: none;
             color: var(--color--dark-grey);
-            /*transition: all 1s ease-in-out;*/
             .Typewriter__cursor {
               display: none;
             }
@@ -94,14 +93,13 @@ const Container = styled.header`
         }
       }
     }
-    :before {
+    .bg-menu {
       content: "";
-      background: url("/pattern.svg") repeat;
-      background-size: 100px;
-      animation: bg-animation 100s linear infinite;
+      background-size: 140px;
+      animation: bg 100s linear infinite;
       position: fixed;
       border-radius: 10px;
-      z-index: 1;
+      z-index: 2;
       top: 0;
       left: 0;
       right: 100%;
@@ -109,9 +107,9 @@ const Container = styled.header`
       margin: 20px;
       padding: 20px;
       background-color: transparent;
-      transition: all 0.3s ease-in-out;
+      transition: all 0.3s;
     }
-    :after {
+    .bg-menu-after {
       content: "";
       position: fixed;
       z-index: 0;
@@ -128,7 +126,7 @@ const Container = styled.header`
   }
   .topbar {
     position: fixed;
-    z-index: 2;
+    z-index: 4;
     top: 0;
     left: 0;
     right: 0;
@@ -154,9 +152,10 @@ const Container = styled.header`
     }
     .button {
       width: 120px;
+      overflow: hidden;
       button {
         cursor: pointer;
-        z-index: 3;
+        z-index: 4;
         position: absolute;
         background: none;
         margin: 0;
@@ -193,7 +192,7 @@ const Container = styled.header`
           color: var(--color--dark-grey);
           transition: all 0.3s;
           :hover {
-            color: var(--default);
+            color: var(--developer);
           }
         }
       }
@@ -222,18 +221,6 @@ const Container = styled.header`
     }
   }
 
-  .down {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    text-decoration: none;
-    overflow: hidden;
-    animation: arrowDown 1s cubic-bezier(0.33, 1, 0.68, 1) infinite;
-    animation-direction: alternate;
-    font-size: 0.5em;
-    transition: all 1s;
-    opacity: 1;
-  }
   .scroll {
     .down {
       opacity: 0;
@@ -245,6 +232,12 @@ const Container = styled.header`
     }
     to {
       bottom: 30px;
+    }
+  }
+  .off {
+    .bg-menu {
+      right: 100%;
+      bottom: 100%;
     }
   }
   .on {
@@ -278,19 +271,18 @@ const Container = styled.header`
       padding: 20px;
       background: none;
     }
-    :before {
+    .bg-menu {
       background: url(pattern.svg) var(--default) repeat;
-      background-size: 140px;
-      right: 0;
-      bottom: 0;
-      z-index: 2;
+      right: 0%;
+      bottom: 0%;
+      z-index: 3;
     }
-    :after {
+    .bg-menu-after {
       content: "";
       bottom: 0;
       background-color: #fff;
       opacity: 1;
-      z-index: 1;
+      z-index: 2;
     }
   }
   .designer.on,
@@ -322,12 +314,12 @@ const Container = styled.header`
     }
   }
   .designer.on {
-    :before {
+    .bg-menu {
       background: url(pattern.svg) var(--designer) repeat;
     }
   }
   .developer.on {
-    :before {
+    .bg-menu {
       background: url(pattern.svg) var(--developer) repeat;
     }
   }

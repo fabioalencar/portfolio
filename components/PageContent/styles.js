@@ -5,7 +5,7 @@ const Container = styled.section`
   display: flex;
   flex-direction: column;
   max-width: 1200px;
-  height: 250px;
+  min-height: 250px;
   margin: 120px auto 0;
   text-align: center;
   color: var(--color--dark-grey);
@@ -51,8 +51,10 @@ const Container = styled.section`
   .social-proof {
     padding: 50px 80px;
     div {
-      div:first-child {
-        box-shadow: 15px 15px var(${(props) => props.className});
+      div {
+        div:first-child {
+          box-shadow: 15px 15px var(${(props) => props.className});
+        }
       }
     }
   }
@@ -133,8 +135,8 @@ const Container = styled.section`
       }
     }
   }
-  .storytelling > div:nth-child(1),
-  .storytelling > div:nth-child(2) {
+  .storytelling div > div:nth-child(1),
+  .storytelling div > div:nth-child(2) {
     div {
       :nth-child(1) {
         box-shadow: 15px 15px var(--color--dark-grey);
@@ -161,16 +163,16 @@ const Container = styled.section`
       }
     }
   }
-  .storytelling > div:nth-child(3),
-  .storytelling > div:nth-child(4) {
+  .storytelling div > div:nth-child(3),
+  .storytelling div > div:nth-child(4) {
     div {
       :nth-child(1) {
         box-shadow: 15px 15px var(--developer);
       }
     }
   }
-  .storytelling > div:nth-child(5),
-  .storytelling > div:nth-child(6) {
+  .storytelling div > div:nth-child(5),
+  .storytelling div > div:nth-child(6) {
     div {
       :nth-child(1) {
         box-shadow: 15px 15px var(--default);
@@ -260,7 +262,7 @@ const Container = styled.section`
         margin: 30px 0;
       }
       small {
-        bottom: -40px;
+        bottom: -60px;
       }
     }
     height: auto;
@@ -298,9 +300,11 @@ const Container = styled.section`
       margin: 50px auto 0;
       padding: 0;
       div {
-        margin: 0 0 40px;
-        div:first-child {
-          max-height: 215px;
+        div {
+          margin: 0 0 40px;
+          div:first-child {
+            max-height: 190px;
+          }
         }
       }
       .text {
@@ -318,6 +322,7 @@ const Container = styled.section`
     }
     .social-proof {
       padding: 0;
+      margin-top: 50px;
     }
     .icon-list {
       max-width: auto;

@@ -6,27 +6,15 @@ import Icon from "./../components/Icon";
 import Card from "./../components/Card";
 import ImageCard from "./../components/ImageCard";
 import { motion } from "framer-motion";
+import { variants } from "../components/Config/Motion";
 
-let easing = [0.175, 0.85, 0.42, 0.96];
-
-const homeVariants = {
-  exit: { y: 150, opacity: 0, transition: { duration: 0.5, ease: easing } },
-  enter: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 0.5,
-      ease: easing,
-    },
-  },
-};
 export default function Home() {
   return (
     <div className="container">
       <ConfigHead title="Senior Product Designer - Fábio Alencar" />
       <Header />
       <motion.div initial="exit" animate="enter" exit="exit">
-        <motion.div variants={homeVariants}>
+        <motion.div variants={variants}>
           <PageContent context="--designer">
             <header>
               <h1 className="title">

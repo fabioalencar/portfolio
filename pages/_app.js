@@ -1,3 +1,5 @@
+import React from "react";
+import App from "next/app";
 import "../styles/icons.css";
 import { createGlobalStyle } from "styled-components";
 import { AnimatePresence } from "framer-motion";
@@ -18,6 +20,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   body {
+    
     margin: 0;
     padding: 0;
     display: flex;
@@ -43,13 +46,19 @@ const GlobalStyle = createGlobalStyle`
 
 `;
 
-export default function App({ Component, pageProps }) {
-  return (
-    <>
-      <GlobalStyle />
-      <AnimatePresence exitBeforeEnter>
-        <Component {...pageProps} />
-      </AnimatePresence>
-    </>
-  );
+class MyApp extends App {
+  render() {
+    const { Component, pageProps, router } = this.props;
+
+    return (
+      <>
+        <GlobalStyle />
+        <AnimatePresence exitBeforeEnter>
+          <Component {...pageProps} key={router.route} />
+        </AnimatePresence>
+      </>
+    );
+  }
 }
+
+export default MyApp;

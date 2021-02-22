@@ -122,29 +122,31 @@ export default function Trinks() {
                   would be harder to find a cause and treat.
                 </p>
                 <p>
-                  We needed to organize process and the way the team was working
+                  We needed to organize process and the way the team should work
                   first in order to move forward to solve harder tasks with a
                   solid pavement.
                 </p>
                 <br />
                 <h4>1. Focus on daily work and process</h4>
                 <p>
-                  We started defining process to start sprints. Liderança
-                  técnica Acertar processos Definir ferramentas ideais para cada
-                  processo Antecipar demandas para aumentar qualidade da entrega
-                  para desenvolvimento Implementar apuração de resultados com UX
-                  Delimitar tempo/prazo dos processos
+                  Technical leadership. Define ideal tools for each process.
+                  Anticipate demands to increase delivery quality. Delimit
+                  process deadlines. Invest time in what matters.
                 </p>
-                <br />
                 <h4>2. Focus on people and culture</h4>
-                <p>Once the team was satisfied with new process and we had </p>
-                <br />
-                <h4>3. Focus on visibility</h4>
                 <p>
-                  Phase 2 never ends. We should always focus on people and
-                  culture ("This is the way", a mandalorian would say), but we
-                  could started phase 3 after we felt the company was responding
-                  to our events.
+                  We should always focus on people and culture ("This is the
+                  way", a mandalorian would say).Prepare people to scale with
+                  the company. Train, inspire, empower. Phase 2 never ends.
+                </p>
+                <h4>3. Focus on visibility</h4>
+
+                <p>
+                  We have to prove our value. To become a user centered company
+                  we should be on the spot, proving we bring results. Phase 3 is
+                  focusing in the visilibity of our work, organize meet-ups,
+                  share our achievements, inspire others and of course fight for
+                  trust and resources.
                 </p>
               </div>
             </section>
@@ -160,30 +162,68 @@ export default function Trinks() {
               <div className="text">
                 <h4>Action plan </h4>
                 <p>
-                  We made a timetable and for the last months I've been working
-                  on many projects to achieve the defined goals. Here you can
-                  see some of them:
+                  After ideation I made a timetable with the best ideas and in
+                  the last few months I've been working on many tasks to achieve
+                  the defined goals. Here you can see some of them:
                 </p>
               </div>
             </section>
             <section className="social-proof">
               <ImageCard>
                 <Image
-                  src="/images/cases/trinks/tia.png"
-                  alt="Trinks Inteligência Artificial"
+                  src="/images/cases/trinks/new-process.png"
+                  alt="New Process"
                   width={360}
                   height={338}
                 />
                 <div className="text">
-                  <h3>An IBM Watson chatbot integrated with Slack.</h3>
+                  <h3>New process defined.</h3>
                   <p>
-                    Onboarding facilitator for new members of the product team;
-                    Unique source of information about design services logins
-                    and passwords. Avoids interruption due to simple doubts.
-                    Daily meeting alerter.
+                    Not everything should be tested! We can use for sure the
+                    usability heuristics to determine good design work. We
+                    started to invest more time in what is worth testing. Now
+                    tests can generate more value.
                   </p>
                 </div>
               </ImageCard>
+              <ImageCard className="image-right">
+                <Image
+                  src="/images/cases/trinks/csd.png"
+                  alt="CSD Matrix"
+                  width={360}
+                  height={338}
+                />
+                <div className="text">
+                  <h3>CSD Matrix</h3>
+                  <p>
+                    Doubts and suppositions that are not shared with everyone
+                    can lead to errors and delays. The CSD matrix was used in
+                    the beginning of every complex sprint to make this type of
+                    information explicit to everyone and the result would serve
+                    as the basis for a UX team action plan.
+                  </p>
+                </div>
+              </ImageCard>
+
+              <ImageCard>
+                <Image
+                  src="/images/cases/trinks/tools.png"
+                  alt="Defining UX Tools"
+                  width={360}
+                  height={338}
+                />
+                <div className="text">
+                  <h3>Tools</h3>
+                  <p>
+                    Figma is awesome! That been said...the team was using
+                    Sketch, Adobe XD and Invision to prototype and make UIs.
+                    Zeplin was the choice to hand-off to devs before my arrival.
+                    We get rid of the other tools and embraced figma's full
+                    cycle. No regrets!
+                  </p>
+                </div>
+              </ImageCard>
+
               <ImageCard className="image-right">
                 <Image
                   src="/images/cases/trinks/figma-thumb.png"
@@ -215,29 +255,13 @@ export default function Trinks() {
                     Sharing knowledge for me is almost as important than learn
                     new things. It's important for individuals, team and company
                     in general. Biweekly we organize online events to transform
-                    tacit knowledge in explicit, we document it in video and
-                    share it with the entire company.
+                    tacit knowledge in explicit, we record it in video and share
+                    it with the entire company.
                   </p>
                 </div>
               </ImageCard>
+
               <ImageCard className="image-right">
-                <Image
-                  src="/images/cases/trinks/new-process.png"
-                  alt="New Process"
-                  width={360}
-                  height={338}
-                />
-                <div className="text">
-                  <h3>New process defined.</h3>
-                  <p>
-                    "Because of his work, we are able to publicize with quality
-                    the work of 31 impact organizations that we accelerate.
-                    Fábio is flexible and always willing to solve problems and
-                    develop solutions to our challenges."
-                  </p>
-                </div>
-              </ImageCard>
-              <ImageCard>
                 <Image
                   src="/images/cases/trinks/ux-site.png"
                   alt="UX Site"
@@ -253,39 +277,20 @@ export default function Trinks() {
                   </p>
                 </div>
               </ImageCard>
-              <ImageCard className="image-right">
-                <Image
-                  src="/images/cases/trinks/csd.png"
-                  alt="CSD Matrix"
-                  width={360}
-                  height={338}
-                />
-                <div className="text">
-                  <h3>CSD Matrix</h3>
-                  <p>
-                    Dúvidas e suposições que não são compartilhados com todos
-                    podem gerar erros e atrasos.Com tudo devidamente anotado
-                    fica mais simples tornarmos a informação explícita. O
-                    resultado da matriz servirá de base para um plano de ação da
-                    equipe de UX.
-                  </p>
-                </div>
-              </ImageCard>
               <ImageCard>
                 <Image
-                  src="/images/cases/trinks/tools.png"
-                  alt="Defining UX Tools"
+                  src="/images/cases/trinks/tia.png"
+                  alt="Trinks Inteligência Artificial"
                   width={360}
                   height={338}
                 />
                 <div className="text">
-                  <h3>Tools</h3>
+                  <h3>An IBM Watson chatbot integrated with Slack.</h3>
                   <p>
-                    Dúvidas e suposições que não são compartilhados com todos
-                    podem gerar erros e atrasos.Com tudo devidamente anotado
-                    fica mais simples tornarmos a informação explícita. O
-                    resultado da matriz servirá de base para um plano de ação da
-                    equipe de UX.
+                    Onboarding facilitator for new members of the product team;
+                    Unique source of information about design services logins
+                    and passwords. Avoids interruption due to simple doubts.
+                    Daily meeting alerter.
                   </p>
                 </div>
               </ImageCard>
