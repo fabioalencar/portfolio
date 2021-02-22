@@ -8,14 +8,14 @@ const Container = styled.div`
   position: relative;
   margin: ${(props) => (props.context == "no-margin" ? "0 0 50px 0" : "0")};
   flex-direction: ${(props) =>
-    props.className == "image-right" ? "row-reverse" : "row"};
+    props.className == "image-right imageCard" ? "row-reverse" : "row"};
   :before {
     content: "${(props) => props.imageLabel}";
     position: absolute;
     font-size: 0.3em;
     top: -20px;
     left: ${(props) =>
-      props.className == "image-right" ? "inherit" : "210px"};
+      props.className == "image-right imageCard" ? "inherit" : "210px"};
     right: ${(props) =>
       props.className == "image-right" ? "10px" : "inherit"};
   }
@@ -33,7 +33,7 @@ const Container = styled.div`
     margin: ${(props) => (props.context == "no-margin" ? "0" : "50px 0")};
     max-width: 600px;
     text-align: ${(props) =>
-      props.className == "image-right" ? "right" : "left"};
+      props.className == "image-right imageCard" ? "right" : "left"};
     h3 {
       font-family: "Quero sans", sans-serif;
       font-size: 1.5em;

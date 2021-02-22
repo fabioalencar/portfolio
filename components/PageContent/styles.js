@@ -50,11 +50,9 @@ const Container = styled.section`
   }
   .social-proof {
     padding: 50px 80px;
-    div {
-      div {
-        div:first-child {
-          box-shadow: 15px 15px var(${(props) => props.className});
-        }
+    .imageCard {
+      div:first-child {
+        box-shadow: 15px 15px var(${(props) => props.className});
       }
     }
   }
@@ -183,7 +181,7 @@ const Container = styled.section`
     span {
       background-color: var(${(props) => props.className});
       color: ${(props) =>
-        props.className == "--default" ? "--color-dark-grey" : "#fff"};
+        props.contrast == "dark" ? "--color-dark-grey" : "#fff"};
     }
   }
 
@@ -251,6 +249,25 @@ const Container = styled.section`
   }
 
   @media ${device.mobileL} {
+    .title-cases {
+      font-size: 2rem;
+    }
+    .case-content {
+      .subtitle {
+        font-size: 1.2rem;
+        margin: 0 auto 30px;
+      }
+    }
+    .case-textblock {
+      display: block;
+      h3 {
+        padding: 0;
+      }
+      .text {
+        max-width: 100%;
+        padding: 0;
+      }
+    }
     .stripe {
       flex-direction: column;
       padding: 30px;

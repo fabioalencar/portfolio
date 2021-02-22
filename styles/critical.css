@@ -90,3 +90,9 @@ h1 span {
   color: var(--color--dark-grey);
   transition: all 0.3s ease 0s;
 }
+.on .bg-menu {
+  background: url(/pattern.svg) var(--default) repeat;
+  right: 0%;
+  bottom: 0%;
+  z-index: 3;
+}

@@ -6,14 +6,12 @@ import ImageCard from "./../../components/ImageCard";
 import { motion } from "framer-motion";
 import { variants } from "../../components/Config/Motion";
 
-export default function Trinks() {
+export default function RedesignTrinks() {
   return (
     <div className="container">
       <ConfigHead
-        title="Product Design Leadership and Design Ops at Trinks"
-        description="Lead the product design team in order to
-                  provide the best user experience in the market aligned with
-                  business goals."
+        title="UX/UI for Trinks app and website"
+        description="Redesign of digital channels, website and app, to encourage navigation and scheduling of available services."
       />
       <Header />
       <motion.div initial="exit" animate="enter" exit="exit">
@@ -21,7 +19,7 @@ export default function Trinks() {
           <PageContent context="--trinks" contrast="light">
             <header>
               <h1 className="title-cases">
-                <span>Product Design</span> Leadership at Trinks
+                <span>Find and book</span> beauty services with Trinks
               </h1>
             </header>
             <section className="case-content">
@@ -33,33 +31,25 @@ export default function Trinks() {
                 className="showcase"
               />
               <h2 className="subtitle">
-                The biggest marketplace of beauty services in Brazil
+                Redesign of digital channels, website and app, to encourage
+                navigation and scheduling of available services.
               </h2>
             </section>
             <section className="case-textblock">
               <h3>Overview</h3>
               <div className="text">
                 <p>
-                  Trinks is the biggest marketplace of beauty services in Brazil
-                  with more than 700k B2C users and 50k B2B users. Since 2019
-                  part of Stone Group, a payment processing services unicorn.
-                </p>
-                <p>
-                  I was invited to lead the product design team in order to
-                  provide the best user experience in the market aligned with
-                  business goals.
+                  To help Trinks in its goal of becoming the most used beauty
+                  services app in Brazil, we have recreated the portal and
+                  mobile app with an experience totally dedicated to scheduling
+                  services.
                 </p>
               </div>
             </section>
             <section className="case-textblock">
               <h3>Challenge</h3>
               <div className="text">
-                <p>
-                  Lack of process. Decentralized documentation. Team building to
-                  scale. Little support from other areas of the company. We had
-                  many challenges and few resources.
-                </p>
-                <p>This is mostly a Design Ops case.</p>
+                <p>UX</p>
               </div>
             </section>
             <section className="case-textblock">
@@ -292,38 +282,15 @@ export default function Trinks() {
               <h3>Results</h3>
               <div className="text">
                 <p>
-                  I still have to say it is a work in progress but we got
-                  progress:
+                  High positive impact on Stores feeback. Increase in positive
+                  users experience feedback.
                 </p>
                 <ul>
+                  <li>High positive impact on Stores feeback.</li>
+                  <li>Increase in positive users experience feedback.</li>
                   <li>
-                    The entire company knows what we do for sure and people are
-                    willing to participate in our online events and activities.
+                    Acquired investment by the brazilian Unicorn Stone in 2019.
                   </li>
-                  <li>Hand-off to devs was simplified.</li>
-                  <li>
-                    We can find all documentation and files centralized now.
-                  </li>
-                  <li>
-                    We reduced lots of interruptions with the new project's
-                    thumb pattern and the chatbot.
-                  </li>
-                  <li>
-                    We are able to apply 2x more user testing thanks to the new
-                    defined process.
-                  </li>
-                </ul>
-                <h4>Comming soon: </h4>
-                <ul>
-                  <li>
-                    We are launching a new header/menu well tested experience to
-                    solve user flooding the support team.
-                  </li>
-                  <li>
-                    We are building a list of engaged users to acelerate
-                    testing.
-                  </li>
-                  <li>The design system is under construction.</li>
                 </ul>
               </div>
             </section>

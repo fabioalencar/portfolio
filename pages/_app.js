@@ -12,6 +12,18 @@ const GlobalStyle = createGlobalStyle`
     --developer: #0496FF;
     --default: #53EE4D;
     --designer: #FC4264;
+    /*cases*/
+    --trinks: #FF9254;
+    --vidaclass: #00b3d5;
+    --runplace: #20a637;
+    --cerec: #e0a908;
+    --dpsp: #d34544;
+    --metlife: #0090da;
+    --liz: --color--dark-grey;
+    --brf: #d12429;
+    --riobike: #00993d;
+    --mccain: #fccc4c;
+    --embaixador: #dda44f;
   }
   ::selection {
   color: #fff;

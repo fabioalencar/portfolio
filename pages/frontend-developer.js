@@ -104,12 +104,11 @@ export default function Home() {
                   height={360}
                 />
                 <div className="text">
-                  <h3>“Fábio is excellent!”</h3>
+                  <h3>“Commitment and dedication”</h3>
                   <p>
-                    "I've been working with him for a few years now. In addition
-                    to delivering creative and functional options, he provides
-                    extremely human support, looking for the best for the
-                    customer and always making necessary adjustments."
+                    "I hired Fábio's services twice for the development of two
+                    websites. Professionalism, commitment and dedication were
+                    constant characteristics in our contact."
                   </p>
                   <span>
                     <strong>Arlindo Cardarett</strong> - Executive C-level in
