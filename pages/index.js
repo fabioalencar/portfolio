@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ConfigHead from "./../components/config/ConfigHead";
+import ConfigHead from "./../components/Config/ConfigHead";
 import Header from "./../components/Header";
 import Banner from "./../components/Banner";
 import CaseList from "./../components/CaseList";

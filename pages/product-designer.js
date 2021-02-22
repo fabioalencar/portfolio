@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ConfigHead from "./../components/config/ConfigHead";
+import ConfigHead from "./../components/Config/ConfigHead";
 import Header from "./../components/Header";
 import PageContent from "./../components/PageContent";
 import Icon from "./../components/Icon";
