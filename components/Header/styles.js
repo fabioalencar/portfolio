@@ -272,7 +272,7 @@ const Container = styled.header`
       background: none;
     }
     .bg-menu {
-      background: url(pattern.svg) var(--default) repeat;
+      background: url("/pattern.svg") var(--default) repeat;
       right: 0%;
       bottom: 0%;
       z-index: 3;
@@ -315,12 +315,12 @@ const Container = styled.header`
   }
   .designer.on {
     .bg-menu {
-      background: url(pattern.svg) var(--designer) repeat;
+      background: url("/pattern.svg") var(--designer) repeat;
     }
   }
   .developer.on {
     .bg-menu {
-      background: url(pattern.svg) var(--developer) repeat;
+      background: url("/pattern.svg") var(--developer) repeat;
     }
   }
   .designer {

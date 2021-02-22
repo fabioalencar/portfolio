@@ -102,7 +102,7 @@ const Container = styled.section`
   }
 
   .stripe {
-    background: url(pattern.svg) var(--default) repeat;
+    background: url("/pattern.svg") var(--default) repeat;
     display: flex;
     justify-content: space-between;
     padding: 50px 100px;

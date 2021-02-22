@@ -79,7 +79,7 @@ const Container = styled.section`
       }
     }
     .trinks {
-      background-image: url("images/cases/trinks/case-cover.png");
+      background-image: url("/images/cases/trinks/case-cover.png");
     }
   }
 
