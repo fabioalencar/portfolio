@@ -27,8 +27,10 @@ const ScrollDown = ({ to }) => {
           smoothScroller(scrollTo);
         }}
         className="down"
+        title="Scroll down"
       >
         <Icon icon="icon-Down" className="bg" />
+        <span>Scroll down</span>
       </a>
     </Container>
   );

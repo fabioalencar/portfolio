@@ -11,7 +11,11 @@ import { variants } from "../components/Config/Motion";
 export default function Home() {
   return (
     <div className="container">
-      <ConfigHead title="Senior Product Designer - Fábio Alencar" />
+      <ConfigHead
+        title="Senior Product Designer - Fábio Alencar"
+        description=" I'm a designer who explores product concepts to find promising
+        directions that address both human and business needs."
+      />
       <Header />
       <motion.div initial="exit" animate="enter" exit="exit">
         <motion.div variants={variants}>

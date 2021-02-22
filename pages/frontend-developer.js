@@ -12,7 +12,11 @@ import { variants } from "../components/Config/Motion";
 export default function Home() {
   return (
     <div className="container">
-      <ConfigHead title="Senior Frontend Developer- Fábio Alencar" />
+      <ConfigHead
+        title="Senior Frontend Developer - Fábio Alencar"
+        description="Problem solver based in user needs and high performance. MBA in
+        Software Engineering and Certified ScrumMaster® (CSM®)."
+      />
       <Header />
       <motion.div initial="exit" animate="enter" exit="exit">
         <motion.div variants={variants}>

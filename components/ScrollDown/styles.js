@@ -13,6 +13,10 @@ const Container = styled.div`
     font-size: 0.5em;
     transition: all 1s;
     opacity: 1;
+    span {
+      text-indent: -9999px;
+      display: block;
+    }
   }
   .scroll.down {
     opacity: 0;

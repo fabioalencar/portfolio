@@ -12,7 +12,7 @@ import GoogleFonts from "next-google-fonts";
  * );
  */
 
-const ConfigHead = ({ children, title }) => (
+const ConfigHead = ({ children, title, description }) => (
   <React.Fragment>
     <link rel="icon" href="/favicon.ico" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -23,7 +23,11 @@ const ConfigHead = ({ children, title }) => (
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
 
       <title>{title}</title>
-
+      <meta
+        name="description"
+        property="og:description"
+        content={description}
+      />
       {children}
     </NextHead>
   </React.Fragment>

@@ -48,13 +48,13 @@ const Header = (props) => {
         <section className="topbar">
           <div className="button hoverable" id="menu">
             {/* <MouseFollow />*/}
-            <button onClick={openMenu}>
+            <button onClick={openMenu} aria-label="Toggle menu">
               <Icon icon="icon-menu" className="bg" />
               <Icon icon="icon-close" className="bg" />
             </button>
           </div>
           <Linki href="/">
-            <a className="fabioalencar">
+            <a className="fabioalencar" title="Fábio Alencar">
               f<span className="hideMobile">ábio</span>
               <span className="dot">.</span>a
               <span className="hideMobile">lencar</span>
@@ -65,7 +65,8 @@ const Header = (props) => {
               <a
                 href="https://github.com/fabioalencar"
                 target="_blank"
-                rel="nofollow me"
+                rel="nofollow noreferrer"
+                title="Github"
               >
                 <Icon icon="icon-github" className="sm" />
               </a>
@@ -74,7 +75,8 @@ const Header = (props) => {
               <a
                 href="https://dribbble.com/fabioalencar"
                 target="_blank"
-                rel="nofollow me"
+                rel="nofollow noreferrer"
+                  title=Dribbble
               >
                 <Icon icon="icon-dribbble" className="sm" />
               </a>
@@ -83,7 +85,8 @@ const Header = (props) => {
               <a
                 href="https://www.linkedin.com/in/fabioalencaresouza/"
                 target="_blank"
-                rel="nofollow me"
+                rel="nofollow noreferrer"
+                title="LinkedIn"
               >
                 <Icon icon="icon-linkedin" className="sm" />
               </a>
@@ -92,7 +95,8 @@ const Header = (props) => {
               <a
                 href="https://api.whatsapp.com/send?phone=5511968884933&text=Oi%20F%C3%A1bio!"
                 target="_blank"
-                rel="nofollow me"
+                rel="nofollow noreferrer"
+                title="Whatsapp"
               >
                 <Icon icon="icon-whatsapp" className="sm" />
               </a>
@@ -123,7 +127,7 @@ const Header = (props) => {
               </Linki>
             </li>
             <li>
-              <a href="/cv_fabio-alencar.pdf" target="_blank">
+              <a href="/cv_fabio-alencar.pdf" target="_blank" title="Resumé">
                 Resumé
               </a>
             </li>

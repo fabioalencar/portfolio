@@ -4,10 +4,10 @@ import { device } from "../Config/Breakpoints";
 const Container = styled.section`
   margin: -60px auto 100px;
   max-width: 800px;
-  h3 {
+  h2 {
     font-size: 0.5em;
     text-align: center;
-    opacity: 0.3;
+    opacity: 0.7;
   }
   .brands {
     display: flex;

@@ -12,7 +12,12 @@ import FadeInWhenVisible from "../components/FadeInWhenVisible";
 export default function Home() {
   return (
     <div className="container">
-      <ConfigHead title="Who is Fábio Alencar?" />
+      <ConfigHead
+        title="Who is Fábio Alencar?"
+        description="Entrepreneur and team leader for 8 years. Used to working
+        remotely. Born in Rio de Janeiro and living in São Paulo,
+        Brazil."
+      />
       <Header />
       <motion.div initial="exit" animate="enter" exit="exit">
         <motion.div variants={variants}>
@@ -29,7 +34,6 @@ export default function Home() {
             </header>
             <section className="social-proof">
               <FadeInWhenVisible>
-                {" "}
                 <ImageCard imageLabel="Travel to Holambra, São Paulo - Brazil">
                   <Image
                     src="/images/holambra-sao-paulo.jpg"
