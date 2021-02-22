@@ -52,7 +52,7 @@ export default function Home() {
                   layout="fixed"
                 />
                 <Image
-                  src="/images/logo-BRF.png"
+                  src="/images/logo-brf.png"
                   alt="BRF"
                   width={100}
                   height={60}

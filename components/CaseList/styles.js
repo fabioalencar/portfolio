@@ -30,11 +30,15 @@ const Container = styled.section`
         left: 0;
         right: 0;
         z-index: 1;
-        display: flex;
-        padding: 50px;
-        flex-direction: column;
         color: #fff;
         text-decoration: none;
+        :hover {
+          .image {
+            :before {
+              opacity: 0;
+            }
+          }
+        }
       }
       h2 {
         width: 50%;
@@ -49,24 +53,44 @@ const Container = styled.section`
         border-radius: 10px;
         border: 3px solid #fff;
         box-shadow: 8px 8px #fff;
-        width: 220px;
+        width: 140px;
         font-size: 0.6em;
         padding: 20px;
         margin-top: 20px;
         text-align: center;
+        display: inline-block;
         transition: all 0.3s;
       }
-      :before {
-        content: "";
+      .content {
         position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
-        background-color: var(--color--dark-grey);
-        opacity: 0.6;
-        z-index: 1;
-        transition: all 0.3s;
+        z-index: 2;
+        padding: 50px;
+      }
+      .image {
+        :before {
+          content: "";
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background-color: var(--color--dark-grey);
+          opacity: 0.6;
+          z-index: 1;
+          transition: all 0.3s;
+        }
+      }
+      .image > div {
+        position: absolute !important;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 0;
       }
 
       :hover {
@@ -77,9 +101,6 @@ const Container = styled.section`
           box-shadow: -8px 8px #fff;
         }
       }
-    }
-    .trinks {
-      background-image: url("/images/cases/trinks/case-cover.png");
     }
   }
 
