@@ -31,6 +31,7 @@ const Container = styled.header`
         :hover {
           font-weight: bold;
           padding-left: 25px;
+          font-family: "quero_sansbold";
         }
       }
       @media ${device.mobileL} {

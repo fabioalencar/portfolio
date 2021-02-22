@@ -1,5 +1,35 @@
 
 /*Critical path*/
+
+* {
+  box-sizing: border-box;
+}
+body {    
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'quero_sansregular';
+  font-size:30px;
+}
+html, body {
+  min-height: 100vh;
+}
+h1, h2, h3, h4, h5{
+  font-family: 'Gotham Rounded';
+  font-weight: 800;
+}
+#__next {
+  flex: 1;
+  display: flex;
+  /*flex-direction: column;*/
+}
+.container{
+  width:100%;
+}
+strong{    
+  font-family: "quero_sansbold", sans-serif;
+}
 h1.title {
     font-size: 3em;
     margin-bottom: 40px;

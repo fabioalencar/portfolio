@@ -6,7 +6,7 @@ const Container = styled.a`
   color: #fff;
   text-decoration: none;
   border-radius: 10px;
-  padding: 10px 30px;
+  padding: 18px 30px;
   box-shadow: 8px 8px var(--developer);
   margin: 0px auto;
   display: inline-block;

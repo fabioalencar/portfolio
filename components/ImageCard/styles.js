@@ -35,7 +35,7 @@ const Container = styled.div`
     text-align: ${(props) =>
       props.className == "image-right imageCard" ? "right" : "left"};
     h3 {
-      font-family: "Quero sans", sans-serif;
+      font-family: "quero_sansbold", sans-serif;
       font-size: 1.5em;
       font-weight: bold;
       margin-bottom: 10px;

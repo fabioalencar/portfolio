@@ -23,6 +23,7 @@ const Container = styled.section`
   .Typewriter {
     font-size: 1.8em;
     min-height: 150px;
+    line-height: 1.3em;
   }
   .ctas {
     display: flex;
@@ -45,7 +46,6 @@ const Container = styled.section`
     .Typewriter {
       font-size: 1.8rem;
       text-align: left;
-
       min-height: 160px;
     }
   }

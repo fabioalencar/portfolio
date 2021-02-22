@@ -1,5 +1,6 @@
 import React from "react";
 import App from "next/app";
+import "../styles/fonts.css";
 import "../styles/icons.css";
 import "../styles/critical.css";
 import { createGlobalStyle } from "styled-components";
@@ -29,32 +30,6 @@ const GlobalStyle = createGlobalStyle`
   color: #fff;
   background: var(--color--dark-grey);
 }
-  * {
-    box-sizing: border-box;
-  }
-  body {    
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Quero sans';
-    font-size:30px;
-  }
-  html, body {
-    min-height: 100vh;
-  }
-  h1, h2, h3, h4, h5{
-    font-family: 'Gotham Rounded';
-    font-weight: 800;
-  }
-  #__next {
-    flex: 1;
-    display: flex;
-    /*flex-direction: column;*/
-  }
-  .container{
-    width:100%;
-  }
 `;
 
 class MyApp extends App {

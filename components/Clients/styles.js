@@ -8,6 +8,7 @@ const Container = styled.section`
     font-size: 0.5em;
     text-align: center;
     opacity: 0.7;
+    font-weight: 100;
   }
   .brands {
     display: flex;

@@ -10,7 +10,7 @@ export default function Vidaclass() {
   return (
     <div className="container">
       <ConfigHead
-        title="UX and Frontend for VidaClass webapp."
+        title="UX, UI and Frontend for VidaClass webapp."
         description="In search of perfecting its newly created brand, highlighting its services and improving its communication plan to talk to the public and partners, VidaClass had as its main needs to shield itself from the competition and publicize its products to final consumers."
       />
       <Header />
@@ -32,7 +32,7 @@ export default function Vidaclass() {
                 className="showcase"
               />
               <h2 className="subtitle">
-                UX and Frontend for VidaClass web app.
+                UX, UI and Frontend for VidaClass web app.
               </h2>
             </section>
             <section className="case-textblock">

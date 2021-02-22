@@ -19,7 +19,7 @@ export default function Home() {
       <Header />
       <motion.div initial="exit" animate="enter" exit="exit">
         <motion.div variants={variants}>
-          <PageContent context="--designer">
+          <PageContent context="--designer" contrast="light">
             <header>
               <h1 className="title">
                 Product <span>Designer</span>

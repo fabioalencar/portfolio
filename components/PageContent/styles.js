@@ -22,12 +22,14 @@ const Container = styled.section`
   h2 {
     font-size: 1em;
     font-weight: 900;
-    font-family: "Quero sans", sans-serif;
+    font-family: "quero_sansregular", sans-serif;
     margin-bottom: 30px;
+    line-height: 1.3em;
   }
   p {
     max-width: 900px;
     margin: auto;
+    line-height: 1.3em;
   }
   .title-cases {
     font-size: 3em;
@@ -36,6 +38,7 @@ const Container = styled.section`
     font-size: 1.2em;
     text-align: center;
     padding: 0;
+    font-weight: 100;
     margin: 0 auto;
   }
   .icon-list {
@@ -72,11 +75,12 @@ const Container = styled.section`
     h4 {
       display: block;
       width: 100%;
-      font-family: "Quero sans", sans-serif;
+      font-family: "quero_sansregular", sans-serif;
     }
     .two-columns {
       width: 455px;
       margin-bottom: 30px;
+      line-height: 1.2em;
       :hover {
         background: #fff;
         color: var(--color--dark-grey);
@@ -106,10 +110,11 @@ const Container = styled.section`
     padding: 50px 100px;
     margin: 50px 0;
     position: relative;
+    border-radius: 10px;
     h4 {
-      font-family: "Quero sans", sans-serif;
+      font-family: "quero_sansbold", sans-serif;
       font-weight: bold;
-      font-size: 1.5em;
+      font-size: 1.3em;
       margin: 0px;
     }
     p {
@@ -197,7 +202,7 @@ const Container = styled.section`
     h4 {
       display: block;
       width: 100%;
-      font-family: "Quero sans", sans-serif;
+      font-family: "quero_sansregular", sans-serif;
     }
     div {
       width: 455px;

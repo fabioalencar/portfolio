@@ -20,7 +20,7 @@ export default function Home() {
       <Header />
       <motion.div initial="exit" animate="enter" exit="exit">
         <motion.div variants={variants}>
-          <PageContent context="--developer">
+          <PageContent context="--developer" contrast="light">
             <header>
               <h1 className="title">
                 Frontend <span>Developer</span>
