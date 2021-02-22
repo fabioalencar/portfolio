@@ -1,6 +1,7 @@
 import React from "react";
 import App from "next/app";
 import "../styles/icons.css";
+import "../styles/critical.css";
 import { createGlobalStyle } from "styled-components";
 import { AnimatePresence } from "framer-motion";
 
@@ -42,7 +43,6 @@ const GlobalStyle = createGlobalStyle`
   .container{
     width:100%;
   }
-
 `;
 
 class MyApp extends App {

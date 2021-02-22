@@ -1,0 +1,92 @@
+
+/*Critical path*/
+h1.title {
+    font-size: 3em;
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+
+h1.title span {
+  background-color: var(--default);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.banner{
+  display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    height: 800px;
+    margin: auto;
+    text-align: center;
+    color: var(--color--dark-grey);
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+h1 span {
+  background-color: var(--default);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.topbar .fabioalencar {
+  opacity: 1;
+  font-size: 0.8em;
+  padding-top: 3px;
+  text-decoration: none;
+  font-weight: normal;
+  color: var(--color--dark-grey);
+  transition: all 0.3s ease-in-out 0s;
+}
+.header nav {
+    display: none;
+    position: fixed;
+    top: 100px;
+    left: 150px;
+    z-index: 3;
+}
+.topbar {
+    position: fixed;
+    z-index: 4;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 20px;
+    padding: 20px;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out 0s;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.topbar .button button i:nth-child(2) {
+  display: none;
+}
+.topbar .button button {
+  cursor: pointer;
+  z-index: 4;
+  position: absolute;
+  background: none;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  height: 40px;
+  width: 40px;
+  transition: all 0.3s ease-in-out 0s;
+}
+.topbar .social-media {
+  margin: 0px;
+  padding: 0px;
+  width: 120px;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  display: flex;
+}
+.topbar .social-media li {
+  display: inline;
+}
+.topbar .social-media li a {
+  padding: 5px;
+  text-decoration: none;
+  color: var(--color--dark-grey);
+  transition: all 0.3s ease 0s;
+}

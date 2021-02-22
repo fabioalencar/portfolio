@@ -5,7 +5,7 @@ import Button from "./../Button";
 
 export default function banner() {
   return (
-    <Container>
+    <Container className="banner">
       <div>
         <h1 className="title">
           <span>Hello,</span> I'm Fábio.

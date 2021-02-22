@@ -3,7 +3,7 @@ import { device } from "../Config/Breakpoints";
 
 const Container = styled.section`
   margin: -60px auto 100px;
-  max-width: 1000px;
+  max-width: 800px;
   h3 {
     font-size: 0.5em;
     text-align: center;
