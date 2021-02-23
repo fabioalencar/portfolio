@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
     --default: #53EE4D;
     --designer: #FC4264;
     /*cases*/
-    --trinks: #FF9254;
+    --trinks: #f1850c;
     --vidaclass: #00b3d5;
     --runplace: #20a637;
     --cerec: #e0a908;

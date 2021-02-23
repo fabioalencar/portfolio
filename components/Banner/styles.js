@@ -48,6 +48,9 @@ const Container = styled.section`
       text-align: left;
       min-height: 160px;
     }
+    .ctas {
+      margin-top: 0;
+    }
   }
   @media ${device.mobileM} {
     h1 {

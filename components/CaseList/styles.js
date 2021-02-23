@@ -41,13 +41,14 @@ const Container = styled.section`
         }
       }
       h2 {
-        width: 50%;
+        width: 40%;
         font-size: 1.3em;
         margin-bottom: 0;
       }
       p {
         width: 30%;
         font-size: 0.8em;
+        line-height: 1.3em;
       }
       span {
         border-radius: 10px;
@@ -127,6 +128,17 @@ const Container = styled.section`
           width: 145px;
           font-size: 0.5em;
           padding: 15px;
+        }
+        .image {
+          > div {
+            left: -400px;
+            top: -25px;
+            position: absolute;
+            z-index: 0;
+          }
+          :before {
+            opacity: 0.75;
+          }
         }
       }
     }

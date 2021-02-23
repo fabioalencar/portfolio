@@ -78,7 +78,6 @@ export default function Home() {
                 </ImageCard>
               </FadeInWhenVisible>
               <FadeInWhenVisible>
-                {" "}
                 <ImageCard imageLabel="Travel to Cafayate, Salta - Argentina">
                   <Image
                     src="/images/cafayate-argentina.jpg"

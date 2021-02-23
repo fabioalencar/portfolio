@@ -5,6 +5,7 @@ import PageContent from "./../components/PageContent";
 import Icon from "./../components/Icon";
 import Card from "./../components/Card";
 import ImageCard from "./../components/ImageCard";
+import CaseList from "./../components/CaseList";
 import { motion } from "framer-motion";
 import { variants } from "../components/Config/Motion";
 
@@ -170,6 +171,10 @@ export default function Home() {
                   </span>
                 </div>
               </ImageCard>
+            </section>
+            <section className="work">
+              <h3>Design work</h3>
+              <CaseList context="design" />
             </section>
           </PageContent>
         </motion.div>

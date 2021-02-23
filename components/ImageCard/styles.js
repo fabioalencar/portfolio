@@ -43,6 +43,7 @@ const Container = styled.div`
     p {
       font-size: 0.6em;
       margin: 10px 0;
+      line-height: 1.5em;
     }
     span {
       font-size: 0.5em;

@@ -32,14 +32,7 @@ const Container = styled.section`
     }
     .brands {
       div {
-        margin: 5px 10px;
-        display: none !important;
-        :nth-child(1),
-        :nth-child(2),
-        :nth-child(3),
-        :nth-child(4) {
-          display: block !important;
-        }
+        margin: 15px 0;
       }
       :before {
         display: none;

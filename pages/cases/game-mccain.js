@@ -6,43 +6,48 @@ import ImageCard from "./../../components/ImageCard";
 import { motion } from "framer-motion";
 import { variants } from "../../components/Config/Motion";
 
-export default function RedesignTrinks() {
+export default function McCain() {
   return (
     <div className="container">
       <ConfigHead
-        title="UX/UI for Trinks app and website"
-        description="Redesign of digital channels, website and app, to encourage navigation and scheduling of available services."
+        title="UX, UI and Frontend for VidaClass webapp."
+        description="In search of perfecting its newly created brand, highlighting its services and improving its communication plan to talk to the public and partners, VidaClass had as its main needs to shield itself from the competition and publicize its products to final consumers."
       />
       <Header />
       <motion.div initial="exit" animate="enter" exit="exit">
         <motion.div variants={variants}>
-          <PageContent context="--trinks" contrast="light">
+          <PageContent context="--mccain">
             <header>
               <h1 className="title-cases">
-                <span>Find and book</span> beauty services with Trinks
+                <span>Awarded</span> interactive experience
               </h1>
             </header>
             <section className="case-content">
               <Image
-                src="/images/cases/redesign-trinks/case-cover.png"
-                alt="Trinks"
+                src="/images/cases/game-mccain/case-cover.png"
+                alt="Vidaclass"
                 width={1200}
                 height={450}
                 className="showcase"
               />
               <h2 className="subtitle">
-                Redesign of digital channels, website and app, to encourage
-                navigation and scheduling of available services.
+                Game McCain - APAS 2019 - UI and Development
               </h2>
             </section>
             <section className="case-textblock">
               <h3>Overview</h3>
               <div className="text">
                 <p>
-                  To help Trinks in its goal of becoming the most used beauty
-                  services app in Brazil, we have recreated the portal and
-                  mobile app with an experience totally dedicated to scheduling
-                  services.
+                  For this awarded project, we created a personalized game to
+                  the launch of SureCrisp from McCain, a global leader in the
+                  frozen pre-fried potato industry, in partnership with Rappi,
+                  since the product was developed to last longer crunchy, with a
+                  focus on delivery.
+                </p>
+                <p>
+                  This project was lead by Confetti Agencie and my role was to
+                  create the UI and develop the game based on Key Visuals
+                  received from the agencie.
                 </p>
               </div>
             </section>
@@ -282,16 +287,9 @@ export default function RedesignTrinks() {
               <h3>Results</h3>
               <div className="text">
                 <p>
-                  High positive impact on Stores feeback. Increase in positive
-                  users experience feedback.
+                  Awarded as First Place at STAND SHOW APAS – POPAI 2019 |
+                  Category: Best Promotional Action - Medium Size - 2019
                 </p>
-                <ul>
-                  <li>High positive impact on Stores feeback.</li>
-                  <li>Increase in positive users experience feedback.</li>
-                  <li>
-                    Acquired investment by the brazilian Unicorn Stone in 2019.
-                  </li>
-                </ul>
               </div>
             </section>
           </PageContent>

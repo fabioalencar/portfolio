@@ -5,10 +5,9 @@ const DynamicTypewriter = (props) => {
       onInit={(typewriter) => {
         typewriter
           .pauseFor(1000)
-          .typeString("Creative Technologist, Product")
-          .pauseFor(100)
-          .deleteChars(7)
-          .typeString("Senior Product Designer and Frontend Developer.")
+          .typeString(
+            "Creative Technologist, Senior Product Designer and Frontend Developer."
+          )
           .pauseFor(3000)
           .deleteChars(78)
           .typeString("Eager for knowledge.")

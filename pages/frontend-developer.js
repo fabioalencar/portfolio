@@ -161,10 +161,11 @@ export default function Home() {
                 </div>
               </ImageCard>
             </section>
+            <section className="work">
+              <h3>Frontend work</h3>
+              <CaseList />
+            </section>
           </PageContent>
-          <section>
-            <CaseList />
-          </section>
         </motion.div>
       </motion.div>
     </div>

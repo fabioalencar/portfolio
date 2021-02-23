@@ -29,7 +29,13 @@ const Container = styled.section`
   p {
     max-width: 900px;
     margin: auto;
-    line-height: 1.3em;
+    line-height: 1.5em;
+  }
+  ul {
+    li {
+      margin-bottom: 10px;
+      line-height: 1.3em;
+    }
   }
   .title-cases {
     font-size: 3em;
@@ -40,6 +46,7 @@ const Container = styled.section`
     padding: 0;
     font-weight: 100;
     margin: 0 auto;
+    line-height: 1.3em;
   }
   .icon-list {
     display: flex;
@@ -242,6 +249,23 @@ const Container = styled.section`
   .image-full {
     div {
       border-radius: 10px;
+    }
+  }
+  .work {
+    section {
+      padding: 0;
+      ul {
+        li {
+          a {
+            .content {
+              text-align: left;
+              p {
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
     }
   }
   @media ${device.tablet} {

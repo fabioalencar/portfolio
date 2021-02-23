@@ -317,7 +317,7 @@ export default function Trinks() {
                 <ul>
                   <li>
                     We are launching a new header/menu well tested experience to
-                    solve user flooding the support team.
+                    solve users flooding the support team.
                   </li>
                   <li>
                     We are building a list of engaged users to acelerate
