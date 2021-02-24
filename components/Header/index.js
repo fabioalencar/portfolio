@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Footer from "./../Footer";
 import Container from "./styles";
 import Linki from "../Config/Link";
 import { useRouter } from "next/router";
@@ -46,9 +45,9 @@ const Header = (props) => {
       <div className={`${className} ${menuStatus ? "on" : "off"} header`}>
         <span className="bg-menu"></span>
         <section className="topbar">
-          <div className="button hoverable" id="menu">
-            {/* <MouseFollow />*/}
-            <button onClick={openMenu} aria-label="Toggle menu">
+          <div className="button hoverable">
+            <MouseFollow />
+            <button onClick={openMenu} aria-label="Toggle menu" id="menu">
               <Icon icon="icon-menu" className="bg" />
               <Icon icon="icon-close" className="bg" />
             </button>
@@ -132,7 +131,6 @@ const Header = (props) => {
               </a>
             </li>
           </ul>
-          <Footer />
         </nav>
 
         <span className="bg-menu-after"></span>

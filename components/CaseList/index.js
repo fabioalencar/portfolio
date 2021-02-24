@@ -25,12 +25,13 @@ export default function CaseList({ context = "all" }) {
                   width={1200}
                   height={450}
                   layout="fixed"
+                  quality="70"
                 />
               </div>
             </a>
           </Link>
         </li>
-        <li>
+        {/*<li>
           <Link href="/cases/redesign-trinks">
             <a>
               <div className="content">
@@ -45,6 +46,7 @@ export default function CaseList({ context = "all" }) {
                   width={1200}
                   height={450}
                   layout="fixed"
+                  quality="70"
                 />
               </div>
             </a>
@@ -65,6 +67,7 @@ export default function CaseList({ context = "all" }) {
                   width={1200}
                   height={450}
                   layout="fixed"
+                  quality="70"
                 />
               </div>
             </a>
@@ -85,6 +88,7 @@ export default function CaseList({ context = "all" }) {
                   width={1200}
                   height={450}
                   layout="fixed"
+                  quality="70"
                 />
               </div>
             </a>
@@ -105,11 +109,96 @@ export default function CaseList({ context = "all" }) {
                   width={1200}
                   height={450}
                   layout="fixed"
+                  quality="70"
                 />
               </div>
             </a>
           </Link>
         </li>
+        <li>
+          <Link href="/cases/game-mccain">
+            <a>
+              <div className="content">
+                <h2>Riobike courier</h2>
+                <p>Design, Brand Identity & Website</p>
+                <span>View case</span>
+              </div>
+              <div className="image">
+                <Image
+                  src="/images/cases/riobike/case-cover.png"
+                  alt="Case Liz Cocktails"
+                  width={1200}
+                  height={450}
+                  layout="fixed"
+                  quality="70"
+                />
+              </div>
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/cases/game-mccain">
+            <a>
+              <div className="content">
+                <h2>Musicalismo (concept)</h2>
+                <p>Product Design, personas and MVP ideation</p>
+                <span>View case</span>
+              </div>
+              <div className="image">
+                <Image
+                  src="/images/cases/musicalismo/case-cover.png"
+                  alt="Case Liz Cocktails"
+                  width={1200}
+                  height={450}
+                  layout="fixed"
+                  quality="70"
+                />
+              </div>
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/cases/game-mccain">
+            <a>
+              <div className="content">
+                <h2>Rede Saara</h2>
+                <p>Design, Frontend and Wordpress development</p>
+                <span>View case</span>
+              </div>
+              <div className="image">
+                <Image
+                  src="/images/cases/saara/case-cover.png"
+                  alt="Case Liz Cocktails"
+                  width={1200}
+                  height={450}
+                  layout="fixed"
+                  quality="70"
+                />
+              </div>
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/cases/game-mccain">
+            <a>
+              <div className="content">
+                <h2>Glocal</h2>
+                <p>Design, Frontend and Wordpress development</p>
+                <span>View case</span>
+              </div>
+              <div className="image">
+                <Image
+                  src="/images/cases/glocal/case-cover.png"
+                  alt="Case Liz Cocktails"
+                  width={1200}
+                  height={450}
+                  layout="fixed"
+                  quality="70"
+                />
+              </div>
+            </a>
+          </Link>
+        </li>*/}
       </ul>
     </Container>
   );

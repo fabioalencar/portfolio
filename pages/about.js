@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ConfigHead from "./../components/Config/ConfigHead";
 import Header from "./../components/Header";
+import Footer from "./../components/Footer";
 import PageContent from "./../components/PageContent";
 import ImageCard from "./../components/ImageCard";
 import Card from "./../components/Card";
@@ -267,6 +268,7 @@ export default function Home() {
           </PageContent>
         </motion.div>
       </motion.div>
+      <Footer />
     </div>
   );
 }

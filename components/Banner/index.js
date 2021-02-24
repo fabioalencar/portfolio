@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "./styles";
 import Typewriter from "../Typewriter";
-
 import Button from "./../Button";
 
 export default function banner() {

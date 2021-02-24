@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ConfigHead from "./../../components/Config/ConfigHead";
 import Header from "./../../components/Header";
+import Footer from "./../../components/Footer";
 import PageContent from "./../../components/PageContent";
 import ImageCard from "./../../components/ImageCard";
 import { motion } from "framer-motion";
@@ -29,6 +30,8 @@ export default function McCain() {
                 width={1200}
                 height={450}
                 className="showcase"
+                quality="70"
+                priority
               />
               <h2 className="subtitle">
                 Game McCain - APAS 2019 - UI and Development
@@ -295,6 +298,7 @@ export default function McCain() {
           </PageContent>
         </motion.div>
       </motion.div>
+      <Footer />
     </div>
   );
 }

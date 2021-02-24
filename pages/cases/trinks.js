@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ConfigHead from "./../../components/Config/ConfigHead";
 import Header from "./../../components/Header";
+import Footer from "./../../components/Footer";
 import PageContent from "./../../components/PageContent";
 import ImageCard from "./../../components/ImageCard";
 import { motion } from "framer-motion";
@@ -31,6 +32,8 @@ export default function Trinks() {
                 width={1200}
                 height={450}
                 className="showcase"
+                quality="70"
+                priority
               />
               <h2 className="subtitle">
                 The biggest marketplace of beauty services in Brazil
@@ -330,6 +333,7 @@ export default function Trinks() {
           </PageContent>
         </motion.div>
       </motion.div>
+      <Footer />
     </div>
   );
 }

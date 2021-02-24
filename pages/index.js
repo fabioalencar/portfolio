@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ConfigHead from "./../components/Config/ConfigHead";
 import Header from "./../components/Header";
+import Footer from "./../components/Footer";
 import Banner from "./../components/Banner";
 import CaseList from "./../components/CaseList";
 import Clients from "./../components/Clients";
@@ -30,6 +31,7 @@ export default function Home() {
                 width={100}
                 height={64}
                 layout="fixed"
+                quality="70"
               />
               <Image
                 src="/images/logo-dentsply-sirona.png"
@@ -100,6 +102,7 @@ export default function Home() {
           <CaseList />
         </motion.div>
       </motion.div>
+      <Footer />
     </div>
   );
 }

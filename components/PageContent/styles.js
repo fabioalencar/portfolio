@@ -256,6 +256,7 @@ const Container = styled.section`
       padding: 0;
       ul {
         li {
+          margin: auto auto 30px;
           a {
             .content {
               text-align: left;

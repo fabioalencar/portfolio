@@ -8,7 +8,7 @@ const Container = styled.div`
       position: fixed;
       top: 0;
       left: 0;
-      mix-blend-mode: saturation;
+      mix-blend-mode: multiply;
       z-index: 1000;
       transition: scale 0.3s;
       opacity: 0;

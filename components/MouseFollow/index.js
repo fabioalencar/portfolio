@@ -20,8 +20,8 @@ const MouseFollow = (props) => {
     // Move the cursor
     function onMouseMove(e) {
       TweenMax.to($bigBall, 0.4, {
-        x: e.pageX - 15,
-        y: e.pageY - 15,
+        x: e.x - 15,
+        y: e.y - 15,
       });
     }
 

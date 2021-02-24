@@ -30,6 +30,23 @@ const GlobalStyle = createGlobalStyle`
   color: #fff;
   background: var(--color--dark-grey);
 }
+.on{
+.cursor {
+    &__ball {    
+      mix-blend-mode: color!important;
+      circle {
+        fill: #fff!important;
+      }
+    }
+  }
+  }
+.on.designer, .on.developer{
+.cursor {
+    &__ball {    
+      mix-blend-mode: exclusion!important;
+    }
+  }
+  }
 `;
 
 class MyApp extends App {
