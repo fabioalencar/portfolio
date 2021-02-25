@@ -8,6 +8,7 @@ import Clients from "./../components/Clients";
 import { motion } from "framer-motion";
 import { variants } from "../components/Config/Motion";
 import ScrollDown from "../components/ScrollDown";
+import { cases } from "../config";
 
 export default function Home({ cases }) {
   return (
@@ -108,8 +109,8 @@ export default function Home({ cases }) {
 }
 
 export async function getStaticProps() {
-  const res = await fetch(`http://localhost:3000/api/cases`);
-  const cases = await res.json();
+  /* const res = await fetch(`${server}/api/cases`);
+  const cases = await res.json();*/
 
   return {
     props: { cases },

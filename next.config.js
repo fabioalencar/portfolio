@@ -1,11 +1,4 @@
 // next.config.js
-/*module.exports = {
-  i18n: {
-    locales: ["en-US", "pt-BR"],
-    defaultLocale: "en-US",
-  },
-};
-*/
 module.exports = {
   webpack(config) {
     config.module.rules.push({
@@ -13,9 +6,5 @@ module.exports = {
       loader: "url-loader?limit=100000",
     });
     return config;
-  },
-  i18n: {
-    locales: ["en-US"],
-    defaultLocale: "en-US",
   },
 };
