@@ -237,6 +237,18 @@ const Container = styled.section`
       min-width: 30%;
       padding: 0 50px 30px 100px;
     }
+    .sideImage {
+      padding: 40px;
+      h4 {
+        margin: 0 0 35px;
+        font-size: 0.7em;
+      }
+      :first-child > div {
+        border-radius: 10px;
+        border: 5px solid var(--color--dark-grey);
+        box-shadow: 10px 10px var(${(props) => props.className});
+      }
+    }
     .text {
       font-size: 0.7em;
       align-items: center;

@@ -9,6 +9,7 @@ const Container = styled.section`
     text-align: center;
     opacity: 0.7;
     font-weight: 100;
+    margin-top: 0;
   }
   .brands {
     display: flex;

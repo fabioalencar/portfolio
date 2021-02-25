@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 import { variants } from "../components/Config/Motion";
 import ScrollDown from "../components/ScrollDown";
 
-export default function Home() {
+export default function Home({ cases }) {
   return (
     <div className="container">
       <ConfigHead
@@ -99,10 +99,19 @@ export default function Home() {
             </div>
           </Clients>
 
-          <CaseList />
+          <CaseList cases={cases} />
         </motion.div>
       </motion.div>
       <Footer />
     </div>
   );
+}
+
+export async function getStaticProps() {
+  const res = await fetch(`http://localhost:3000/api/cases`);
+  const cases = await res.json();
+
+  return {
+    props: { cases },
+  };
 }

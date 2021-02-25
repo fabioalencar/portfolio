@@ -1,1 +1,1 @@
-{ "presets": [["next/babel"],  ["@babel/env", { "modules": false }]], "plugins": [["styled-components", { "ssr": true }]] }
+{ "presets": [["next/babel"],  ["@babel/env", { "modules": false }]], "plugins": [["styled-components", { "ssr": true }], "@babel/plugin-transform-runtime"] }

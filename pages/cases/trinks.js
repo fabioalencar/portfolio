@@ -43,9 +43,12 @@ export default function Trinks() {
               <h3>Overview</h3>
               <div className="text">
                 <p>
-                  Trinks is the biggest marketplace of beauty services in Brazil
-                  with more than 700k B2C users and 50k B2B users. Since 2019
-                  part of Stone Group, a payment processing services unicorn.
+                  <a href="http://trinks.com/" target="_blank" rel="nofollow">
+                    Trinks
+                  </a>{" "}
+                  is the biggest marketplace of beauty services in Brazil with
+                  more than 700k B2C users and 50k B2B users. Since 2019 part of
+                  Stone Group, a payment processing services unicorn.
                 </p>
                 <p>
                   I was invited to lead the product design team in order to

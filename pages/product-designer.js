@@ -10,7 +10,7 @@ import CaseList from "./../components/CaseList";
 import { motion } from "framer-motion";
 import { variants } from "../components/Config/Motion";
 
-export default function Home() {
+export default function Home({ cases }) {
   return (
     <div className="container">
       <ConfigHead
@@ -175,7 +175,7 @@ export default function Home() {
             </section>
             <h3>Design work</h3>
             <section className="work">
-              <CaseList context="design" />
+              <CaseList cases={cases} filter="design" />
             </section>
           </PageContent>
         </motion.div>
@@ -183,4 +183,13 @@ export default function Home() {
       <Footer />
     </div>
   );
+}
+
+export async function getStaticProps() {
+  const res = await fetch(`http://localhost:3000/api/cases`);
+  const cases = await res.json();
+
+  return {
+    props: { cases },
+  };
 }

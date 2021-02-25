@@ -48,243 +48,108 @@ export default function McCain() {
                   focus on delivery.
                 </p>
                 <p>
-                  This project was lead by Confetti Agencie and my role was to
-                  create the UI and develop the game based on Key Visuals
-                  received from the agencie.
-                </p>
-              </div>
-            </section>
-            <section className="case-textblock">
-              <h3>Challenge</h3>
-              <div className="text">
-                <p>UX</p>
-              </div>
-            </section>
-            <section className="case-textblock">
-              <h3>Process</h3>
-              <div className="text">
-                <p>
-                  Applying a design thinking approach I started the way it
-                  always should be: Talking to people.
-                </p>
-                <p>Some pains I listened from my teammates:</p>
-                <ul>
-                  <li>Interruptions due to change of priority or urgency</li>
-                  <li>
-                    Legacy software being technical bottleneck for design
-                    decisions
-                  </li>
-                  <li>Lack of senior technical support in UX</li>
-                  <li>Low consistency of deliveries</li>
-                  <li>Communication failure</li>
-                  <li>Lack of specifications</li>
-                  <li>Tight deadlines</li>
-                  <li>Organization of UX / UI documentation in general</li>
-                  <li>No clear strategy to apply user tests</li>
-                  <li>No clear ownership of projects</li>
-                  <li>Little support from other areas of the company.</li>
-                  <li>Scarce resources.</li>
-
-                  <li>Retain and hire people was getting hard.</li>
-                </ul>
-                <br />
-                <h4>Clustering</h4>
-                <p>
-                  Looking for common needs and patterns I decided to clusterize
-                  pains.
+                  This project was lead by{" "}
+                  <a
+                    href="https://confettiagencia.com.br/"
+                    target="_blank"
+                    rel="nofollow"
+                  >
+                    Confetti Agency
+                  </a>{" "}
+                  and my role was to create the UI and develop the game based on
+                  Key Visuals received from the agencie.
                 </p>
               </div>
             </section>
             <section className="image-full">
               <Image
-                src="/images/cases/trinks/clusters.png"
-                alt="Clusters"
-                width={1200}
-                height={574}
-              />
-            </section>
-            <section className="case-textblock">
-              <div className="text">
-                <p>
-                  Clustering helped me better understand priorities. We couldn't
-                  move forward to solve cultural problems while having more
-                  urgent stuff like "Low consistency of deliveries" on the
-                  board. I'm not saying cultural problems was less important but
-                  would be harder to find a cause and treat.
-                </p>
-                <p>
-                  We needed to organize process and the way the team should work
-                  first in order to move forward to solve harder tasks with a
-                  solid pavement.
-                </p>
-                <br />
-                <h4>1. Focus on daily work and process</h4>
-                <p>
-                  Technical leadership. Define ideal tools for each process.
-                  Anticipate demands to increase delivery quality. Delimit
-                  process deadlines. Invest time in what matters.
-                </p>
-                <h4>2. Focus on people and culture</h4>
-                <p>
-                  We should always focus on people and culture ("This is the
-                  way", a mandalorian would say).Prepare people to scale with
-                  the company. Train, inspire, empower. Phase 2 never ends.
-                </p>
-                <h4>3. Focus on visibility</h4>
-
-                <p>
-                  We have to prove our value. To become a user centered company
-                  we should be on the spot, proving we bring results. Phase 3 is
-                  focusing in the visilibity of our work, organize meet-ups,
-                  share our achievements, inspire others and of course fight for
-                  trust and resources.
-                </p>
-              </div>
-            </section>
-            <section className="image-full">
-              <Image
-                src="/images/cases/trinks/phases.png"
+                src="/images/cases/game-mccain/key-visual.png"
                 alt="Phases"
                 width={1200}
                 height={574}
               />
             </section>
-            <section>
+            <section className="case-textblock">
+              <h3>Process</h3>
               <div className="text">
-                <h4>Action plan </h4>
                 <p>
-                  After ideation I made a timetable with the best ideas and in
-                  the last few months I've been working on many tasks to achieve
-                  the defined goals. Here you can see some of them:
+                  I started a concept of the game planning it to be played on
+                  horizontal view (as you can see below). Initially it was a
+                  suggestion from the lead agency.
                 </p>
               </div>
             </section>
-            <section className="social-proof">
-              <ImageCard>
+            <section className="image-full">
+              <Image
+                src="/images/cases/game-mccain/horizontal-concept.png"
+                alt="Horizontal concept of the game"
+                width={1200}
+                height={574}
+              />
+            </section>
+            <section className="case-textblock">
+              <div className="text">
+                <p>
+                  After some tests and considerations it was clear it would't be
+                  the best option because of the limited view of the scenery. It
+                  would be harder to build a balanced game considering fun and
+                  challenge to the users.
+                </p>
+                <p>
+                  Back to references I looked for some inspiration from classic
+                  games:
+                </p>
+              </div>
+            </section>
+            <section className="image-full">
+              <Image
+                src="/images/cases/game-mccain/references.png"
+                alt="References of classics games"
+                width={1200}
+                height={574}
+              />
+            </section>
+            <section className="case-textblock">
+              <div className="sideImage">
+                <h4>Proof of concept for the top view fo the game</h4>
                 <Image
-                  src="/images/cases/trinks/new-process.png"
-                  alt="New Process"
-                  width={360}
-                  height={338}
+                  src="/images/cases/game-mccain/poc.gif"
+                  alt="Proof of concept"
+                  width={300}
+                  height={534}
+                  layout="fixed"
                 />
-                <div className="text">
-                  <h3>New process defined.</h3>
-                  <p>
-                    Not everything should be tested! We can use for sure the
-                    usability heuristics to determine good design work. We
-                    started to invest more time in what is worth testing. Now
-                    tests can generate more value.
-                  </p>
-                </div>
-              </ImageCard>
-              <ImageCard className="image-right">
-                <Image
-                  src="/images/cases/trinks/csd.png"
-                  alt="CSD Matrix"
-                  width={360}
-                  height={338}
-                />
-                <div className="text">
-                  <h3>CSD Matrix</h3>
-                  <p>
-                    Doubts and suppositions that are not shared with everyone
-                    can lead to errors and delays. The CSD matrix was used in
-                    the beginning of every complex sprint to make this type of
-                    information explicit to everyone and the result would serve
-                    as the basis for a UX team action plan.
-                  </p>
-                </div>
-              </ImageCard>
-
-              <ImageCard>
-                <Image
-                  src="/images/cases/trinks/tools.png"
-                  alt="Defining UX Tools"
-                  width={360}
-                  height={338}
-                />
-                <div className="text">
-                  <h3>Tools</h3>
-                  <p>
-                    Figma is awesome! That been said...the team was using
-                    Sketch, Adobe XD and Invision to prototype and make UIs.
-                    Zeplin was the choice to hand-off to devs before my arrival.
-                    We get rid of the other tools and embraced figma's full
-                    cycle. No regrets!
-                  </p>
-                </div>
-              </ImageCard>
-
-              <ImageCard className="image-right">
-                <Image
-                  src="/images/cases/trinks/figma-thumb.png"
-                  alt="Figma Thumb"
-                  width={360}
-                  height={338}
-                />
-                <div className="text">
-                  <h3>Figma thumbnail pattern.</h3>
-                  <p>
-                    We created a pattern to all thumbnails in order to easily
-                    understand information about work been done. Now we can see
-                    status, squad, responsables and a quick brief of the project
-                    in a easy way. <br />
-                    POs are thankful :)
-                  </p>
-                </div>
-              </ImageCard>
-              <ImageCard>
-                <Image
-                  src="/images/cases/trinks/workshops.png"
-                  alt="Workshops"
-                  width={360}
-                  height={338}
-                />
-                <div className="text">
-                  <h3>Online Workshops.</h3>
-                  <p>
-                    Sharing knowledge for me is almost as important than learn
-                    new things. It's important for individuals, team and company
-                    in general. Biweekly we organize online events to transform
-                    tacit knowledge in explicit, we record it in video and share
-                    it with the entire company.
-                  </p>
-                </div>
-              </ImageCard>
-
-              <ImageCard className="image-right">
-                <Image
-                  src="/images/cases/trinks/ux-site.png"
-                  alt="UX Site"
-                  width={360}
-                  height={338}
-                />
-                <div className="text">
-                  <h3>UX Team Google Site</h3>
-                  <p>
-                    We launched a Google site for the UX Team. We use it to
-                    share with the company what we have been working on,
-                    document workshops, share protocols.
-                  </p>
-                </div>
-              </ImageCard>
-              <ImageCard>
-                <Image
-                  src="/images/cases/trinks/tia.png"
-                  alt="Trinks Inteligência Artificial"
-                  width={360}
-                  height={338}
-                />
-                <div className="text">
-                  <h3>An IBM Watson chatbot integrated with Slack.</h3>
-                  <p>
-                    Onboarding facilitator for new members of the product team;
-                    Unique source of information about design services logins
-                    and passwords. Avoids interruption due to simple doubts.
-                    Daily meeting alerter.
-                  </p>
-                </div>
-              </ImageCard>
+              </div>
+              <div className="text">
+                <p>
+                  I decided for a view from top (the same as Sonic wings). Would
+                  be harder to work in a "3D like" perspective with the deadline
+                  we had and the top view provides a good visility from the
+                  scenary.
+                </p>
+                <h4>Development</h4>
+                <p>
+                  The game was built in two weeks with the javascript framework{" "}
+                  <a href="https://phaser.io/" target="_blank" rel="nofollow">
+                    Phaser
+                  </a>
+                  .
+                </p>
+                <iframe
+                  width="780"
+                  height="415"
+                  src="https://www.youtube.com/embed/mR1Gq9YoQQI"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+                <p>
+                  <small>
+                    Unfortunately the installation was too low for high people.
+                    😓
+                  </small>
+                </p>
+              </div>
             </section>
             <section className="case-textblock">
               <h3>Results</h3>
@@ -294,6 +159,14 @@ export default function McCain() {
                   Category: Best Promotional Action - Medium Size - 2019
                 </p>
               </div>
+            </section>
+            <section className="image-full">
+              <Image
+                src="/images/cases/game-mccain/apas-2019.png"
+                alt="APAS 2019"
+                width={1200}
+                height={574}
+              />
             </section>
           </PageContent>
         </motion.div>
