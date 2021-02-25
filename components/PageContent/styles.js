@@ -31,7 +31,8 @@ const Container = styled.section`
     margin: auto;
     line-height: 1.5em;
   }
-  ul {
+  ul,
+  ol {
     li {
       margin-bottom: 10px;
       line-height: 1.3em;
@@ -241,6 +242,31 @@ const Container = styled.section`
       align-items: center;
       padding: 30px 50px 30px 0;
       max-width: 65%;
+      min-width: 780px;
+      a {
+        text-decoration: none;
+        color: var(--developer);
+        transition: all 0.3s;
+        position: relative;
+        :after {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          content: "";
+          border-bottom: 1px solid var(--developer);
+          width: 0%;
+          height: 1px;
+          transition: all 0.3s;
+        }
+        :hover {
+          text-decoration: underline;
+          color: var(--designer);
+          :after {
+            border-bottom: 1px solid var(--designer);
+            width: 100%;
+          }
+        }
+      }
       p {
         margin-bottom: 20px;
       }

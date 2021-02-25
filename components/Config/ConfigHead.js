@@ -14,14 +14,10 @@ import GoogleFonts from "next-google-fonts";
 
 const ConfigHead = ({ children, title, description }) => (
   <React.Fragment>
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://fabioalencar.com/favicon.png"
-    ></link>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <GoogleFonts href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&display=swap" />
     <NextHead>
+      <link rel="icon" type="image/png" href="/favicon.png"></link>
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
@@ -43,7 +39,6 @@ const ConfigHead = ({ children, title, description }) => (
       <meta property="og:locale" content="en_US" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-
       <title>{title}</title>
       <meta
         name="description"

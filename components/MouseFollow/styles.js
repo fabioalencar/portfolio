@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../Config/Breakpoints";
 
 const Container = styled.div`
   .cursor {
@@ -16,6 +17,10 @@ const Container = styled.div`
         fill: var(--default);
       }
     }
+  }
+
+  @media ${device.mobileL} {
+    display: none;
   }
 `;
 

@@ -92,7 +92,7 @@ const Header = (props) => {
             </li>
             <li>
               <a
-                href="https://api.whatsapp.com/send?phone=5511968884933&text=Oi%20F%C3%A1bio!"
+                href="https://api.whatsapp.com/send?phone=5511968884933&text=Hi%20F%C3%A1bio!"
                 target="_blank"
                 rel="nofollow noreferrer"
                 title="Whatsapp"
