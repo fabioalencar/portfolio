@@ -154,7 +154,7 @@ export default function Trinks() {
                 height={574}
               />
             </section>
-            <section>
+            <section className="case-textblock">
               <div className="text">
                 <h4>Action plan </h4>
                 <p>
@@ -173,7 +173,7 @@ export default function Trinks() {
                   height={338}
                 />
                 <div className="text">
-                  <h3>New process defined.</h3>
+                  <h3>New process defined</h3>
                   <p>
                     Not everything should be tested! We can use for sure the
                     usability heuristics to determine good design work. We
@@ -228,7 +228,7 @@ export default function Trinks() {
                   height={338}
                 />
                 <div className="text">
-                  <h3>Figma thumbnail pattern.</h3>
+                  <h3>Figma thumbnail pattern</h3>
                   <p>
                     We created a pattern to all thumbnails in order to easily
                     understand information about work been done. Now we can see
@@ -246,7 +246,7 @@ export default function Trinks() {
                   height={338}
                 />
                 <div className="text">
-                  <h3>Online Workshops.</h3>
+                  <h3>Online Workshops</h3>
                   <p>
                     Sharing knowledge for me is almost as important than learn
                     new things. It's important for individuals, team and company
@@ -281,7 +281,7 @@ export default function Trinks() {
                   height={338}
                 />
                 <div className="text">
-                  <h3>An IBM Watson chatbot integrated with Slack.</h3>
+                  <h3>An IBM Watson chatbot integrated with Slack</h3>
                   <p>
                     Onboarding facilitator for new members of the product team;
                     Unique source of information about design services logins

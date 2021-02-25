@@ -135,7 +135,7 @@ export default function Home() {
                   </p>
                   <span>
                     <strong>Raphaelly Bragança</strong> - Head of Growth and
-                    Commercial Strategy Ifood
+                    Commercial Strategy - Ifood
                   </span>
                 </div>
               </ImageCard>
@@ -156,8 +156,8 @@ export default function Home() {
                     and would like to work with him again, anywhere, anytime!"
                   </p>
                   <span>
-                    <strong>Joyce Batista</strong> - Marketing Coordinator Grupo
-                    Santa Joana
+                    <strong>Joyce Batista</strong> - Marketing Coordinator -
+                    Grupo Santa Joana
                   </span>
                 </div>
               </ImageCard>

@@ -280,6 +280,7 @@ const Container = styled.section`
   .work {
     section {
       padding: 0;
+      margin: 0;
       ul {
         li {
           margin: auto auto 30px;
@@ -305,6 +306,9 @@ const Container = styled.section`
   }
 
   @media ${device.mobileL} {
+    .image-full {
+      margin-bottom: 20px;
+    }
     .title-cases {
       font-size: 2rem;
     }
@@ -320,6 +324,7 @@ const Container = styled.section`
         padding: 0;
       }
       .text {
+        min-width: auto;
         max-width: 100%;
         padding: 0;
       }

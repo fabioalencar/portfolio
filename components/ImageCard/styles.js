@@ -65,7 +65,7 @@ const Container = styled.div`
   @media ${device.mobileL} {
     display: block;
     .text {
-      margin: 0 0 80px;
+      margin: 0 0 60px;
       max-width: 100%;
     }
     :before {

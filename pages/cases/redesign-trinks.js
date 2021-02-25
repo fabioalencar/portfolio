@@ -208,7 +208,7 @@ export default function RedesignTrinks() {
                   users. Since 2019 part of Stone Group, a payment processing
                   services unicorn.
                 </p>
-                <p>Achievements:</p>
+                <h4>Achievements:</h4>
                 <ul>
                   <li>
                     High positive impact on Stores feeback. From 3 to 4.9 stars
@@ -222,7 +222,7 @@ export default function RedesignTrinks() {
                     Acquired investment by the brazilian Unicorn Stone in 2019.
                   </li>
                   <li>More than 700.000 monthly visits.</li>
-                  <li>More than a million monthly apointments.</li>
+                  <li>More than a million monthly appointments.</li>
                 </ul>
               </div>
             </section>

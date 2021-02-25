@@ -31,11 +31,19 @@ const Container = styled.section`
       font-size: 0.5em;
     }
     .brands {
+      justify-content: center;
       div {
-        margin: 15px 0;
+        margin: 15px 18px;
       }
       :before {
         display: none;
+      }
+    }
+  }
+  @media ${device.mobileS} {
+    .brands {
+      div {
+        margin: 10px 12px;
       }
     }
   }

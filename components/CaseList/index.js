@@ -52,7 +52,7 @@ export default function CaseList({ context = "all" }) {
             </a>
           </Link>
         </li>
-        {/*<li>
+        <li>
           <Link href="/cases/vidaclass">
             <a>
               <div className="content">
@@ -73,7 +73,7 @@ export default function CaseList({ context = "all" }) {
             </a>
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/cases/game-mccain">
             <a>
               <div className="content">

@@ -125,7 +125,7 @@ export default function Home() {
                     develop solutions to our challenges."
                   </p>
                   <span>
-                    <strong>Juliana Gouveia</strong> - Glocal Director
+                    <strong>Juliana Gouveia</strong> - Director - Glocal
                   </span>
                 </div>
               </ImageCard>
@@ -146,7 +146,7 @@ export default function Home() {
                     of what is or is not in the proposal."
                   </p>
                   <span>
-                    <strong>Darlan Duarte</strong> - Enterpreneur, Runplace and
+                    <strong>Darlan Duarte</strong> - Enterpreneur - Runplace and
                     Pacefit
                   </span>
                 </div>
@@ -167,14 +167,14 @@ export default function Home() {
                     other virtues."
                   </p>
                   <span>
-                    <strong>Gisele Paiva</strong> - Enterpreneur, Confetti
+                    <strong>Gisele Paiva</strong> - Enterpreneur - Confetti
                     Agência
                   </span>
                 </div>
               </ImageCard>
             </section>
+            <h3>Design work</h3>
             <section className="work">
-              <h3>Design work</h3>
               <CaseList context="design" />
             </section>
           </PageContent>

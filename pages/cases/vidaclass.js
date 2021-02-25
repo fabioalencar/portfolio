@@ -50,10 +50,25 @@ export default function Vidaclass() {
                 </p>
               </div>
             </section>
+            <section className="image-full">
+              <Image
+                src="/images/cases/vidaclass/overview.png"
+                alt="Clusters"
+                width={1200}
+                height={574}
+                quality="70"
+              />
+            </section>
             <section className="case-textblock">
               <h3>Challenge</h3>
               <div className="text">
-                <p>UX</p>
+                <p>
+                  In search of perfecting its newly created brand, highlighting
+                  its services and improving its communication plan to talk to
+                  the public and partners, VidaClass had as its main needs to
+                  shield itself from the competition and publicize its products
+                  to final consumers.
+                </p>
               </div>
             </section>
             <section className="case-textblock">

@@ -114,6 +114,13 @@ const Container = styled.section`
       height: 60vh !important;
       a {
         justify-content: space-between;
+        :hover {
+          .image {
+            :before {
+              opacity: 1;
+            }
+          }
+        }
         div {
         }
         h2 {
@@ -132,7 +139,7 @@ const Container = styled.section`
         .image {
           > div {
             left: -400px;
-            top: -25px;
+            top: 0px;
             position: absolute;
             z-index: 0;
           }

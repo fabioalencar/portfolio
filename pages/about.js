@@ -125,7 +125,7 @@ export default function Home() {
                     layout="fixed"
                   />
                   <span>
-                    <strong>Graphic Design Technologist</strong> by UNESA
+                    <strong>Graphic Design Technologist</strong> by UNESA.
                   </span>
                 </Card>
                 <Card className="two-columns">
@@ -137,7 +137,7 @@ export default function Home() {
                     layout="fixed"
                   />
                   <span>
-                    Certified ScrumMaster® (<strong>CSM®</strong>)
+                    Certified ScrumMaster® (<strong>CSM®</strong>).
                   </span>
                 </Card>
                 <Card className="two-columns">
