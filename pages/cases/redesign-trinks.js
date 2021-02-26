@@ -3,7 +3,7 @@ import ConfigHead from "./../../components/Config/ConfigHead";
 import Header from "./../../components/Header";
 import Footer from "./../../components/Footer";
 import PageContent from "./../../components/PageContent";
-import ImageCard from "./../../components/ImageCard";
+import NextCase from "./../../components/NextCase";
 import { motion } from "framer-motion";
 import { variants } from "../../components/Config/Motion";
 
@@ -43,9 +43,12 @@ export default function RedesignTrinks() {
               <div className="text">
                 <p>
                   To help Trinks in its goal of becoming the most used beauty
-                  services app in Brazil, I recreated the portal and mobile app
-                  with an experience totally dedicated to scheduling services.
+                  services app in Brazil, the portal and mobile app were rebuilt
+                  from the ground with an experience totally dedicated to
+                  scheduling services.
                 </p>
+                <h4>Role</h4>
+                <p>I was hired as a senior ux/ui designer for this project.</p>
               </div>
             </section>
             <section className="image-full">
@@ -227,6 +230,8 @@ export default function RedesignTrinks() {
               </div>
             </section>
           </PageContent>
+
+          <NextCase id={3} />
         </motion.div>
       </motion.div>
       <Footer />

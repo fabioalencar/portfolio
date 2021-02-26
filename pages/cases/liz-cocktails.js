@@ -4,6 +4,7 @@ import Header from "./../../components/Header";
 import Footer from "./../../components/Footer";
 import PageContent from "./../../components/PageContent";
 import ImageCard from "./../../components/ImageCard";
+import NextCase from "./../../components/NextCase";
 import { motion } from "framer-motion";
 import { variants } from "../../components/Config/Motion";
 
@@ -51,8 +52,12 @@ export default function LizCocktails() {
                   >
                     Raphael Peres
                   </a>{" "}
-                  for the renowned bartender Tai Barbin. My role was mostly
-                  development but I gave him some suggestion to responsiveness.
+                  for the renowned bartender Tai Barbin.
+                </p>
+                <h4>Role</h4>
+                <p>
+                  My role was mostly development but I gave him some suggestion
+                  to responsiveness.
                 </p>
                 <p>Developed with:</p>
                 <ul>
@@ -79,6 +84,8 @@ export default function LizCocktails() {
               />
             </section>
           </PageContent>
+
+          <NextCase id={1} />
         </motion.div>
       </motion.div>
       <Footer />

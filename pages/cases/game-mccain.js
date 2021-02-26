@@ -4,6 +4,7 @@ import Header from "./../../components/Header";
 import Footer from "./../../components/Footer";
 import PageContent from "./../../components/PageContent";
 import ImageCard from "./../../components/ImageCard";
+import NextCase from "./../../components/NextCase";
 import { motion } from "framer-motion";
 import { variants } from "../../components/Config/Motion";
 
@@ -47,6 +48,7 @@ export default function McCain() {
                   since the product was developed to last longer crunchy, with a
                   focus on delivery.
                 </p>
+                <h4>Role</h4>
                 <p>
                   This project was lead by{" "}
                   <a
@@ -57,7 +59,7 @@ export default function McCain() {
                     Confetti Agency
                   </a>{" "}
                   and my role was to create the UI and develop the game based on
-                  Key Visuals received from the agencie.
+                  Key Visuals received from the agency.
                 </p>
               </div>
             </section>
@@ -111,7 +113,7 @@ export default function McCain() {
             </section>
             <section className="case-textblock">
               <div className="sideImage">
-                <h4>Proof of concept for the top view fo the game</h4>
+                <h4>Proof of concept for the top view of the game</h4>
                 <Image
                   src="/images/cases/game-mccain/poc.gif"
                   alt="Proof of concept"
@@ -169,6 +171,8 @@ export default function McCain() {
               />
             </section>
           </PageContent>
+
+          <NextCase id={4} />
         </motion.div>
       </motion.div>
       <Footer />

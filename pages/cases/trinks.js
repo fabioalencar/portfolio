@@ -4,6 +4,7 @@ import Header from "./../../components/Header";
 import Footer from "./../../components/Footer";
 import PageContent from "./../../components/PageContent";
 import ImageCard from "./../../components/ImageCard";
+import NextCase from "./../../components/NextCase";
 import { motion } from "framer-motion";
 import { variants } from "../../components/Config/Motion";
 
@@ -50,6 +51,7 @@ export default function Trinks() {
                   more than 700k B2C users and 50k B2B users. Since 2019 part of
                   Stone Group, a payment processing services unicorn.
                 </p>
+                <h4>Role</h4>
                 <p>
                   I was invited to lead the product design team in order to
                   provide the best user experience in the market aligned with
@@ -136,7 +138,7 @@ export default function Trinks() {
                 <p>
                   We should always focus on people and culture ("This is the
                   way", a mandalorian would say).Prepare people to scale with
-                  the company. Train, inspire, empower. Phase 2 never ends.
+                  the company. Train, inspire, empower. Phase 2 never ends. 🤯
                 </p>
                 <h4>3. Focus on visibility</h4>
 
@@ -334,6 +336,7 @@ export default function Trinks() {
               </div>
             </section>
           </PageContent>
+          <NextCase id={2} />
         </motion.div>
       </motion.div>
       <Footer />

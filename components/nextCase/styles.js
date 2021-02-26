@@ -2,13 +2,24 @@ import styled from "styled-components";
 import { device } from "../Config/Breakpoints";
 
 const Container = styled.section`
-  padding: 0 30px;
-  ul {
-    padding: 0;
-    margin: 0 0 30px;
+margin-top:80px;
+h3{
+  margin:0 30px 20px;
+  font-size:1.2em;
+  color: var(--color--dark-grey);
+  font-family: "quero_sansregular", sans-serif;
+  position:relative;
+  :before{
+    content:"";
+    border-top:2px solid var(--color--dark-grey);
+    width:30px;
+    top:-20px;
+    left:4px;
+    position: absolute;
 
-    li {
-      list-style: none;
+  }
+}
+.case{
       background: var(--color--dark-grey);
       padding: 50px;
       width: 100%;
@@ -24,7 +35,7 @@ const Container = styled.section`
       position: relative;
       overflow: hidden;
       background-size: contain;
-      a {
+ a {
         position: absolute;
         top: 0;
         bottom: 0;
@@ -41,7 +52,6 @@ const Container = styled.section`
           }
         }
       }
-
       h2 {
         width: 40%;
         font-size: 1.3em;
@@ -106,11 +116,11 @@ const Container = styled.section`
       }
     }
   }
-
+ 
   @media ${device.mobileL} {
     padding: 0;
     margin: 30px;
-    li {
+    .case {
       background-size: cover !important;
       background-position-x: -200px !important;
       height: 60vh !important;
