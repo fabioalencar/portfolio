@@ -1,10 +1,12 @@
-import React from "react";
-import App from "next/app";
+import React, { useEffect } from "react";
+import Router from "next/router";
+//import App from "next/app";
 import "../styles/fonts.css";
 import "../styles/icons.css";
 import "../styles/critical.css";
 import { createGlobalStyle } from "styled-components";
 import { AnimatePresence } from "framer-motion";
+import { GTMPageView } from "../components/utils/gtm";
 
 const GlobalStyle = createGlobalStyle`
   html{
@@ -49,19 +51,24 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-class MyApp extends App {
-  render() {
-    const { Component, pageProps, router } = this.props;
+function MyApp({ Component, pageProps, router }) {
+  // Initiate GTM
+  useEffect(() => {
+    const handleRouteChange = (url) => GTMPageView(url);
+    Router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      Router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, []);
 
-    return (
-      <>
-        <GlobalStyle />
-        <AnimatePresence exitBeforeEnter>
-          <Component {...pageProps} key={router.route} />
-        </AnimatePresence>
-      </>
-    );
-  }
+  return (
+    <>
+      <GlobalStyle />
+      <AnimatePresence exitBeforeEnter>
+        <Component {...pageProps} key={router.route} />
+      </AnimatePresence>
+    </>
+  );
 }
 
 export default MyApp;
