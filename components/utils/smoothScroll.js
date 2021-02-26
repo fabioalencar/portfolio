@@ -1,7 +1,9 @@
 // Get the top position of an element in the document
 const getTop = function (element, start) {
   // return value of html.getBoundingClientRect().top ... IE : 0, other browsers : -pageYOffset
-  if (element.nodeName === "HTML") return -start;
+  if (element.nodeName === "HTML") {
+    return -start;
+  }
   return element.getBoundingClientRect().top + start;
 };
 // ease in out function thanks to:
@@ -15,7 +17,9 @@ const easeInOutCubic = function (t) {
 // the time elapsed from the beginning of the scroll
 // and the total duration of the scroll (default 500ms)
 const position = function (start, end, elapsed, duration) {
-  if (elapsed > duration) return end;
+  if (elapsed > duration) {
+    return end;
+  }
   return start + (end - start) * easeInOutCubic(elapsed / duration); // <-- you can change the easing funtion there
   // return start + (end - start) * (elapsed / duration); // <-- this would give a linear scroll
 };
@@ -31,7 +35,7 @@ const smoothScroll = function (el, duration, callback, context) {
   const start = context.scrollTop || window.pageYOffset;
   let end;
   if (typeof el === "number") {
-    end = parseInt(el) - 60;
+    end = parseInt(el, 2) - 60;
   } else {
     end = getTop(el, start) - 60;
   }

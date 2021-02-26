@@ -6,18 +6,18 @@ const Container = styled.div`
   justify-content: space-between;
   text-align: left;
   position: relative;
-  margin: ${(props) => (props.context == "no-margin" ? "0 0 50px 0" : "0")};
+  margin: ${(props) => (props.context === "no-margin" ? "0 0 50px 0" : "0")};
   flex-direction: ${(props) =>
-    props.className == "image-right imageCard" ? "row-reverse" : "row"};
+    props.className === "image-right imageCard" ? "row-reverse" : "row"};
   :before {
     content: "${(props) => props.imageLabel}";
     position: absolute;
     font-size: 0.3em;
     top: -20px;
     left: ${(props) =>
-      props.className == "image-right imageCard" ? "inherit" : "210px"};
+      props.className === "image-right imageCard" ? "inherit" : "210px"};
     right: ${(props) =>
-      props.className == "image-right" ? "10px" : "inherit"};
+      props.className === "image-right" ? "10px" : "inherit"};
   }
   div:first-child {
     background: var(--color--dark-grey);
@@ -30,10 +30,10 @@ const Container = styled.div`
     display: flex;
     align-items: stretch;
     flex-direction: column;
-    margin: ${(props) => (props.context == "no-margin" ? "0" : "50px 0")};
+    margin: ${(props) => (props.context === "no-margin" ? "0" : "50px 0")};
     max-width: 600px;
     text-align: ${(props) =>
-      props.className == "image-right imageCard" ? "right" : "left"};
+      props.className === "image-right imageCard" ? "right" : "left"};
     h3 {
       font-family: "quero_sansbold", sans-serif;
       font-size: 1.5em;

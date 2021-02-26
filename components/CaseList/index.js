@@ -6,20 +6,18 @@ import Container from "./styles";
 export default function CaseList({ cases, filter }) {
   const data = cases.cases;
 
-  const filter_cases = (item) => {
+  const filterCases = (item) => {
     switch (filter) {
       case "design":
         return item.categories.includes("design");
-        break;
       case "frontend":
         return item.categories.includes("frontend");
-        break;
       default:
         return data;
     }
   };
 
-  const filteredCases = data.filter(filter_cases);
+  const filteredCases = data.filter(filterCases);
 
   return (
     <Container>

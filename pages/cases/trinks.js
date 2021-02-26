@@ -4,7 +4,7 @@ import Header from "./../../components/Header";
 import Footer from "./../../components/Footer";
 import PageContent from "./../../components/PageContent";
 import ImageCard from "./../../components/ImageCard";
-import NextCase from "./../../components/NextCase";
+import CaseNav from "./../../components/CaseNav";
 import { motion } from "framer-motion";
 import { variants } from "../../components/Config/Motion";
 
@@ -336,7 +336,7 @@ export default function Trinks() {
               </div>
             </section>
           </PageContent>
-          <NextCase id={2} />
+          <CaseNav id={2} />
         </motion.div>
       </motion.div>
       <Footer />

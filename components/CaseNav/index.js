@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { cases } from "../../config";
 
-const NextCase = ({ id }) => {
+const CaseNav = ({ id }) => {
   const data = cases.cases;
   const filteredCase = data.find((obj) => obj.id === id);
 
@@ -37,4 +37,4 @@ const NextCase = ({ id }) => {
   );
 };
 
-export default NextCase;
+export default CaseNav;

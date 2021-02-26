@@ -26,13 +26,6 @@ const Header = (props) => {
     setMenuStatus(!menuStatus);
   };
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   const handleScroll = () => {
     if (window.scrollY > 20) {
       document.querySelector(".topbar").className = "topbar scroll";
@@ -40,6 +33,14 @@ const Header = (props) => {
       document.querySelector(".topbar").className = "topbar";
     }
   };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <Container>
       <div className={`${className} ${menuStatus ? "on" : "off"} header`}>

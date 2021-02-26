@@ -1,6 +1,5 @@
 import Container from "./styles";
 import { useEffect } from "react";
-import { gsap } from "gsap";
 import { TweenMax } from "gsap/dist/gsap";
 
 const MouseFollow = (props) => {
@@ -9,13 +8,6 @@ const MouseFollow = (props) => {
     const $bigBall = document.querySelector(".cursor__ball--big");
     const $hoverables = document.querySelectorAll(".hoverable");
     const elemento = document.getElementById("menu");
-
-    elemento.addEventListener("mousemove", onMouseMove);
-
-    for (let i = 0; i < $hoverables.length; i++) {
-      $hoverables[i].addEventListener("mouseenter", onMouseHover);
-      $hoverables[i].addEventListener("mouseleave", onMouseHoverOut);
-    }
 
     // Move the cursor
     function onMouseMove(e) {
@@ -37,6 +29,12 @@ const MouseFollow = (props) => {
         scale: 1,
         opacity: 0,
       });
+    }
+    elemento.addEventListener("mousemove", onMouseMove);
+
+    for (let i = 0; i < $hoverables.length; i++) {
+      $hoverables[i].addEventListener("mouseenter", onMouseHover);
+      $hoverables[i].addEventListener("mouseleave", onMouseHoverOut);
     }
   }, []);
   return (

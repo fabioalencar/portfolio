@@ -4,13 +4,6 @@ import smoothScroller from "../utils/smoothScroll";
 import Icon from "../Icon";
 
 const ScrollDown = ({ to }) => {
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   const handleScroll = () => {
     if (window.scrollY > 20) {
       document.querySelector(".down").className = "down scroll";
@@ -18,6 +11,14 @@ const ScrollDown = ({ to }) => {
       document.querySelector(".down").className = "down";
     }
   };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   const scrollTo = to;
   return (
     <Container>

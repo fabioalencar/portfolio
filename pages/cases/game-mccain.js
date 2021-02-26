@@ -3,8 +3,7 @@ import ConfigHead from "./../../components/Config/ConfigHead";
 import Header from "./../../components/Header";
 import Footer from "./../../components/Footer";
 import PageContent from "./../../components/PageContent";
-import ImageCard from "./../../components/ImageCard";
-import NextCase from "./../../components/NextCase";
+import CaseNav from "./../../components/CaseNav";
 import { motion } from "framer-motion";
 import { variants } from "../../components/Config/Motion";
 
@@ -172,7 +171,7 @@ export default function McCain() {
             </section>
           </PageContent>
 
-          <NextCase id={4} />
+          <CaseNav id={4} />
         </motion.div>
       </motion.div>
       <Footer />

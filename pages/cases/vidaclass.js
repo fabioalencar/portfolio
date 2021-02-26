@@ -3,7 +3,7 @@ import ConfigHead from "./../../components/Config/ConfigHead";
 import Header from "./../../components/Header";
 import Footer from "./../../components/Footer";
 import PageContent from "./../../components/PageContent";
-import NextCase from "./../../components/NextCase";
+import CaseNav from "./../../components/CaseNav";
 import { motion } from "framer-motion";
 import { variants } from "../../components/Config/Motion";
 
@@ -223,7 +223,7 @@ export default function Vidaclass() {
             </section>
           </PageContent>
 
-          <NextCase id={5} />
+          <CaseNav id={5} />
         </motion.div>
       </motion.div>
       <Footer />
