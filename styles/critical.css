@@ -12,7 +12,8 @@ body {
   font-size: 30px;
 }
 
-html, body {
+html, 
+body {
   min-height: 100vh;
 }
 
@@ -27,12 +28,16 @@ html, body {
 }
 
 .banner .title span {
-  background-color:#53ee4d;
+  background-color: #53ee4d;
   border-radius: 10px;
   padding: 5px 10px;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: 'Gotham Rounded', sans-serif;
   font-weight: 800;
 }
@@ -51,7 +56,7 @@ strong {
 }
 
 .cursor__ball {
-    transform: scale(0);
+  transform: scale(0);
 }
 
 .down {
@@ -82,11 +87,6 @@ strong {
   font-size: 5em;
 }
 
-.title {
-  font-size: 3em;
-  margin-bottom: 40px;
-  font-weight: normal;
-}
 
 .banner {
   display: flex;
@@ -100,19 +100,13 @@ strong {
   justify-content: center;
 }
 
-h1 span {
-  background-color: #53ee4d;
-  border-radius: 10px;
-  padding: 5px 10px;
-}
-
 .topbar .fabioalencar {
   opacity: 1;
   font-size: 0.8em;
   padding-top: 3px;
   text-decoration: none;
   font-weight: normal;
-  color: #2D3142;
+  color: #2d3142;
   transition: all 0.3s ease-in-out 0s;
 }
 
@@ -127,9 +121,9 @@ h1 span {
 .topbar {
   position: fixed;
   z-index: 4;
-  top: 0px;
-  left: 0px;
-  right: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
   margin: 20px;
   padding: 20px;
   background-color: transparent;
@@ -149,8 +143,8 @@ h1 span {
   z-index: 4;
   position: absolute;
   background: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   border: none;
   height: 40px;
   width: 40px;
@@ -158,8 +152,8 @@ h1 span {
 }
 
 .topbar .social-media {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   width: 120px;
   -webkit-box-pack: end;
   justify-content: flex-end;
@@ -188,13 +182,14 @@ h1 span {
   }
 
 }
+
 @media (max-width: 540px) {
 
-  .banner > div{
+  .banner > div {
     min-height: 442px;
   }
 
-  .banner{
+  .banner {
     padding: 50px;
     overflow: hidden;
     height: 100vh;
@@ -202,14 +197,20 @@ h1 span {
   }
 
   .title {
-    font-size: 3.8rem;    
+    font-size: 3.8rem;
   }
-
-  .title span{   
+  
+  h1 span {
+    background-color: #53ee4d;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  
+  .title span {   
     display: table;
     padding: 2px 5px;
   }
-
+  
   .subtitle {
     font-size: 1.8rem;
     text-align: left;
@@ -252,9 +253,9 @@ h1 span {
   .title {
     font-size: 2.7rem;
   }
-
+  
   .subtitle {
     font-size: 1.3rem;
   }
-  
+
 }
