@@ -3,40 +3,36 @@ import { useEffect } from "react";
 import { TweenMax } from "gsap/dist/gsap";
 
 const MouseFollow = (props) => {
-  // Listeners
   useEffect(() => {
-    const $bigBall = document.querySelector(".cursor__ball--big");
-    const $hoverables = document.querySelectorAll(".hoverable");
+    const bigBall = document.querySelector(".cursor__ball--big");
     const elemento = document.getElementById("menu");
+    const hoverable = document.getElementById("hoverable");
 
-    // Move the cursor
-    function onMouseMove(e) {
-      TweenMax.to($bigBall, 0.4, {
+    const onMouseMove = (e) => {
+      TweenMax.to(bigBall, 0.4, {
         x: e.x - 15,
         y: e.y - 15,
       });
-    }
+    };
 
-    // Hover an element
-    function onMouseHover() {
-      TweenMax.to($bigBall, 0.3, {
+    const onMouseHover = (e) => {
+      TweenMax.to(bigBall, 0.3, {
         scale: 3,
         opacity: 1,
       });
-    }
-    function onMouseHoverOut() {
-      TweenMax.to($bigBall, 0.3, {
+    };
+
+    const onMouseHoverOut = (e) => {
+      TweenMax.to(bigBall, 0.3, {
         scale: 1,
         opacity: 0,
       });
-    }
+    };
     elemento.addEventListener("mousemove", onMouseMove);
-
-    for (let i = 0; i < $hoverables.length; i++) {
-      $hoverables[i].addEventListener("mouseenter", onMouseHover);
-      $hoverables[i].addEventListener("mouseleave", onMouseHoverOut);
-    }
+    hoverable.addEventListener("mouseenter", onMouseHover);
+    hoverable.addEventListener("mouseleave", onMouseHoverOut);
   }, []);
+
   return (
     <Container>
       <div className="cursor">

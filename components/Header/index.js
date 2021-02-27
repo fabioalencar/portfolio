@@ -46,7 +46,7 @@ const Header = (props) => {
       <div className={`${className} ${menuStatus ? "on" : "off"} header`}>
         <span className="bg-menu"></span>
         <section className="topbar">
-          <div className="button hoverable">
+          <div className="button" id="hoverable">
             <button onClick={openMenu} aria-label="Toggle menu" id="menu">
               <Icon icon="icon-menu" className="bg" />
               <Icon icon="icon-close" className="bg" />
