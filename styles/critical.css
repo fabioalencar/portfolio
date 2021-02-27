@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {    
   margin: 0;
   padding: 0;
@@ -10,39 +11,49 @@ body {
   font-family: 'quero_sansregular', sans-serif;
   font-size: 30px;
 }
+
 html, body {
   min-height: 100vh;
 }
+
 .banner > div {
   min-height: 500px;
 }
+
 .title {
   font-size: 3em;
   margin-bottom: 40px;
   font-weight: normal;
 }
+
 .banner .title span {
   background-color:#53ee4d;
   border-radius: 10px;
   padding: 5px 10px;
 }
+
 h1, h2, h3, h4, h5 {
   font-family: 'Gotham Rounded', sans-serif;
   font-weight: 800;
 }
+
 #__next {
   flex: 1;
   display: flex;
 }
+
 .container {
   width: 100%;
 }
+
 strong {    
   font-family: "quero_sansbold", sans-serif;
 }
+
 .cursor__ball {
     transform: scale(0);
 }
+
 .down {
   position: fixed;
   bottom: 30px;
@@ -54,23 +65,29 @@ strong {
   transition: all 1s ease 0s;
   opacity: 1;
 }
+
 .sm {
   font-size: 1em;
 }
+
 .md {
   font-size: 2em;
 }
+
 .bg {
   font-size: 3em;
 }
+
 .hg {
   font-size: 5em;
 }
+
 .title {
   font-size: 3em;
   margin-bottom: 40px;
   font-weight: normal;
 }
+
 .banner {
   display: flex;
   flex-direction: column;
@@ -82,11 +99,13 @@ strong {
   -webkit-box-pack: center;
   justify-content: center;
 }
+
 h1 span {
   background-color: #53ee4d;
   border-radius: 10px;
   padding: 5px 10px;
 }
+
 .topbar .fabioalencar {
   opacity: 1;
   font-size: 0.8em;
@@ -96,6 +115,7 @@ h1 span {
   color: #2D3142;
   transition: all 0.3s ease-in-out 0s;
 }
+
 .header nav {
   display: none;
   position: fixed;
@@ -103,6 +123,7 @@ h1 span {
   left: 150px;
   z-index: 3;
 }
+
 .topbar {
   position: fixed;
   z-index: 4;
@@ -118,9 +139,11 @@ h1 span {
   justify-content: space-between;
   box-sizing: border-box;
 }
+
 .topbar .button button i:nth-child(2) {
   display: none;
 }
+
 .topbar .button button {
   cursor: pointer;
   z-index: 4;
@@ -133,6 +156,7 @@ h1 span {
   width: 40px;
   transition: all 0.3s ease-in-out 0s;
 }
+
 .topbar .social-media {
   margin: 0px;
   padding: 0px;
@@ -141,73 +165,96 @@ h1 span {
   justify-content: flex-end;
   display: flex;
 }
+
 .topbar .social-media li {
   display: inline;
 }
+
 .topbar .social-media li a {
   padding: 5px;
   text-decoration: none;
   color: #2D3142;
   transition: all 0.3s ease 0s;
 }
+
 @media (max-width: 768px) {
+
   .title {
     font-size: 5rem;
   }
+
   .subtitle {
     font-size: 2.2rem;
   }
+
 }
 @media (max-width: 540px) {
+
   .banner > div{
     min-height: 442px;
   }
+
   .banner{
     padding: 50px;
     overflow: hidden;
     height: 100vh;
     text-align: left;
   }
+
   .title {
     font-size: 3.8rem;    
   }
+
   .title span{   
     display: table;
     padding: 2px 5px;
   }
+
   .subtitle {
     font-size: 1.8rem;
     text-align: left;
     min-height: 160px;
   }
+
   .Typewritter {
     min-height: 160px;
   }
+
   .ctas {
     margin-top: 40px;
   }
+
   .down {
     font-size: 0.3em;
     right: 15px;
   }
+
   .hideMobile {
     display: none !important;
   }
+
 }
+
 @media (max-width: 375px) {
+
   .title {
     font-size: 3.4rem;
   }
+
   .subtitle {
     font-size: 1.6rem;
   }
+
 }
 
 @media (max-width: 360px) {
+
   .title {
     font-size: 2.7rem;
   }
+
   .subtitle {
     font-size: 1.3rem;
   }
+  
 }

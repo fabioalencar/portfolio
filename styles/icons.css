@@ -6,6 +6,7 @@
   font-style: normal;
   font-display: block;
 }
+
 i {
   font-family: 'icomoon' !important;
   speak: never;
@@ -17,58 +18,76 @@ i {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .icon-Down::before {
   content: "\e911";
   color: #0496ff;
 }
+
 .icon-menu::before {
   content: "\e90e";
 }
+
 .icon-whatsapp::before {
   content: "\e90f";
 }
+
 .icon-close::before {
   content: "\e910";
 }
+
 .icon-design::before {
   content: "\e900";
 }
+
 .icon-dribbble::before {
   content: "\e901";
 }
+
 .icon-git::before {
   content: "\e902";
 }
+
 .icon-github::before {
   content: "\e903";
 }
+
 .icon-html5::before {
   content: "\e904";
 }
+
 .icon-illustrator::before {
   content: "\e905";
 }
+
 .icon-js::before {
   content: "\e906";
 }
+
 .icon-linkedin::before {
   content: "\e907";
 }
+
 .icon-photoshop::before {
   content: "\e908";
 }
+
 .icon-search::before {
   content: "\e909";
 }
+
 .icon-text-width::before {
   content: "\e90a";
 }
+
 .icon-wordpress::before {
   content: "\e90b";
 }
+
 .icon-api::before {
   content: "\e90c";
 }
+
 .icon-contrast::before {
   content: "\e90d";
 }
