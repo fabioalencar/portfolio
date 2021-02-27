@@ -107,13 +107,34 @@ const Container = styled.section`
     }
   }
 
+  @media ${device.laptop} {
+    a {
+      h2 {
+        width: 60% !important;
+      }
+      p {
+        width: 50% !important;
+      }
+    }
+  }
+
+  @media ${device.tablet} {
+    a {
+      h2 {
+        width: 72% !important;
+      }
+      p {
+        width: 60% !important;
+      }
+    }
+  }
   @media ${device.mobileL} {
     padding: 0;
     margin: 30px;
     li {
       background-size: cover !important;
       background-position-x: -200px !important;
-      height: 60vh !important;
+      min-height: 50vh !important;
       a {
         justify-content: space-between;
         :hover {
@@ -150,6 +171,16 @@ const Container = styled.section`
           }
         }
       }
+    }
+  }
+  @media ${device.mobileM} {
+    li {
+      min-height: 400px !important;
+    }
+  }
+  @media ${device.mobileS} {
+    li {
+      min-height: 450px !important;
     }
   }
 `;

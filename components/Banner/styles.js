@@ -20,10 +20,12 @@ const Container = styled.section`
       padding: 5px 10px;
     }
   }
-  .Typewriter {
+  .subtitle {
     font-size: 1.8em;
     min-height: 150px;
     line-height: 1.3em;
+    max-width: 1000px;
+    margin: auto;
   }
   .ctas {
     display: flex;
@@ -31,40 +33,50 @@ const Container = styled.section`
     align-items: flex-end;
     margin-top: 30px;
   }
+
+  @media ${device.tablet} {
+    .title {
+      font-size: 5rem;
+    }
+    .subtitle {
+      font-size: 2.2rem;
+    }
+  }
   @media ${device.mobileL} {
     padding: 50px;
     overflow: hidden;
     height: 100vh;
     text-align: left;
-    h1 {
+    .title {
       font-size: 3.8rem;
       span {
         display: table;
         padding: 2px 5px;
       }
     }
-    .Typewriter {
+    .subtitle {
       font-size: 1.8rem;
       text-align: left;
       min-height: 160px;
     }
     .ctas {
-      margin-top: 0;
+      margin-top: 40px;
     }
   }
   @media ${device.mobileM} {
-    h1 {
+    .title {
       font-size: 3.4rem;
     }
-    .Typewriter {
+    .subtitle {
       font-size: 1.6rem;
     }
   }
+
   @media ${device.mobileS} {
-    h1 {
+    .title {
       font-size: 2.7rem;
     }
-    .Typewriter {
+    .subtitle {
       font-size: 1.3rem;
     }
   }

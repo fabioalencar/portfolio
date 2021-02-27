@@ -29,8 +29,8 @@ export default function Home() {
               </h1>
 
               <p className="subtitle">
-                Illusionism fan, martial arts practitioner, geek and early
-                adopter of new tech.
+                Specialist in the convergence between business, design and
+                technology.
               </p>
             </header>
             <section className="social-proof">
@@ -45,11 +45,12 @@ export default function Home() {
                   <div className="text">
                     <h3>
                       “I take inspiration from life. Good experiences inspire
-                      me, unpleasant experiences motivates me.”
+                      me, unpleasant experiences motivates me. Everything is
+                      fuel to my mind.”
                     </h3>
                     <p>
-                      “I can be in line at the bank. Everything is fuel to my
-                      mind.”
+                      I'm an illusionism fan, martial arts practitioner, geek
+                      and early adopter of new tech.
                     </p>
                   </div>
                 </ImageCard>
