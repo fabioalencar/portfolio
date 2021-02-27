@@ -10,10 +10,11 @@ const Container = styled.section`
   text-align: center;
   color: var(--color--dark-grey);
   justify-content: center;
-  h1 {
+  .title {
     font-size: 3em;
     margin-bottom: 40px;
     font-weight: normal;
+    min-height: 100px;
     span {
       background-color: var(--default);
       border-radius: 10px;

@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
 import Router from "next/router";
-//import App from "next/app";
-import "../styles/fonts.css";
 import "../styles/icons.css";
 import "../styles/critical.css";
 import { createGlobalStyle } from "styled-components";
@@ -9,13 +7,40 @@ import { AnimatePresence } from "framer-motion";
 import { GTMPageView } from "../components/utils/gtm";
 
 const GlobalStyle = createGlobalStyle`
-  html{
+@font-face {
+  font-family: 'quero_sansbold';
+  src: url('/fonts/querosans-bold-webfont.woff2') format('woff2'),
+       url('/fonts/querosans-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'quero_sansregular';
+  src: url('/fonts/querosans-regular-webfont.woff2') format('woff2'),
+       url('/fonts/querosans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham Rounded';
+  src: url('/fonts/GothamRounded-Medium.woff2') format('woff2'),
+      url('/fonts/GothamRounded-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+   html{
+    /* colors */
     --color--dark-grey: #2D3142;
     --color--light-grey: #F4F5F6;
     --developer: #0496FF;
     --default: #53EE4D;
     --designer: #FC4264;
-    /*cases*/
     --trinks: #f1850c;
     --vidaclass: #00b3d5;
     --runplace: #20a637;
@@ -27,6 +52,7 @@ const GlobalStyle = createGlobalStyle`
     --riobike: #00993d;
     --mccain: #fccc4c;
     --embaixador: #dda44f;
+    
   }
   ::selection {
   color: #fff;

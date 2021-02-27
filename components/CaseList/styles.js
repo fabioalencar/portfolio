@@ -107,7 +107,7 @@ const Container = styled.section`
     }
   }
 
-  @media ${device.laptop} {
+  @media (max-width: var(--laptop)) {
     a {
       h2 {
         width: 60% !important;

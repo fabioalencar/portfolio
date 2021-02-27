@@ -1,4 +1,3 @@
-
 /* Critical path */
 * {
   box-sizing: border-box;
@@ -14,6 +13,20 @@ body {
 html, body {
   min-height: 100vh;
 }
+
+.banner > div{
+  min-height: 500px;
+}
+.title {
+  font-size: 3em;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+.title span {
+  background-color: #53EE4D;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
 h1, h2, h3, h4, h5 {
   font-family: 'Gotham Rounded', sans-serif;
   font-weight: 800;
@@ -21,7 +34,6 @@ h1, h2, h3, h4, h5 {
 #__next {
   flex: 1;
   display: flex;
-  /*flex-direction: column;*/
 }
 .container {
   width: 100%;
@@ -29,15 +41,37 @@ h1, h2, h3, h4, h5 {
 strong {    
   font-family: "quero_sansbold", sans-serif;
 }
-h1.title {
+.cursor__ball {
+  transform: scale(0);
+}
+
+.down {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  text-decoration: none;
+  overflow: hidden;
+  animation: 1s cubic-bezier(0.33, 1, 0.68, 1) 0s infinite alternate none running arrowDown;
+  font-size: 0.5em;
+  transition: all 1s ease 0s;
+  opacity: 1;
+}
+.sm {
+  font-size: 1em;
+}
+.md {
+  font-size: 2em;
+}
+.bg {
+  font-size: 3em;
+}
+.hg {
+  font-size: 5em;
+}
+.title {
   font-size: 3em;
   margin-bottom: 40px;
   font-weight: normal;
-}
-h1.title span {
-  background-color: var(--default);
-  border-radius: 10px;
-  padding: 5px 10px;
 }
 .banner {
   display: flex;
@@ -46,12 +80,12 @@ h1.title span {
   height: 800px;
   margin: auto;
   text-align: center;
-  color: var(--color--dark-grey);
+  color: #2D3142;
   -webkit-box-pack: center;
   justify-content: center;
 }
 h1 span {
-  background-color: var(--default);
+  background-color: #53EE4D;
   border-radius: 10px;
   padding: 5px 10px;
 }
@@ -61,7 +95,7 @@ h1 span {
   padding-top: 3px;
   text-decoration: none;
   font-weight: normal;
-  color: var(--color--dark-grey);
+  color: #2D3142;
   transition: all 0.3s ease-in-out 0s;
 }
 .header nav {
@@ -115,12 +149,67 @@ h1 span {
 .topbar .social-media li a {
   padding: 5px;
   text-decoration: none;
-  color: var(--color--dark-grey);
+  color: #2D3142;
   transition: all 0.3s ease 0s;
 }
-.on .bg-menu {
-  background: url(/pattern.svg) var(--default) repeat;
-  right: 0%;
-  bottom: 0%;
-  z-index: 3;
+@media (max-width: 768px) {
+  .title {
+    font-size: 5rem;
+  }
+  .subtitle {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 540px) {
+  .banner > div{
+    min-height: 442px;
+  }
+  .banner{
+    padding: 50px;
+    overflow: hidden;
+    height: 100vh;
+    text-align: left;
+  }
+  .title {
+    font-size: 3.8rem;    
+  }
+  .title span{   
+    display: table;
+    padding: 2px 5px;
+  }
+  .subtitle {
+    font-size: 1.8rem;
+    text-align: left;
+    min-height: 160px;
+  }
+  .Typewritter{
+    min-height: 160px;
+  }
+  .ctas {
+    margin-top: 40px;
+  }
+  .down {
+    font-size: 0.3em;
+    right: 15px;
+  }
+  .hideMobile {
+    display: none !important;
+  }
+}
+@media (max-width: 375px) {
+  .title {
+    font-size: 3.4rem;
+  }
+  .subtitle {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .title {
+    font-size: 2.7rem;
+  }
+  .subtitle {
+    font-size: 1.3rem;
+  }
 }

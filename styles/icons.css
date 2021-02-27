@@ -75,15 +75,3 @@ i {
 .icon-contrast:before {
   content: "\e90d";
 }
-.sm {
-  font-size: 1em;
-}
-.md {
-  font-size: 2em;
-}
-.bg {
-  font-size: 3em;
-}
-.hg {
-  font-size: 5em;
-}

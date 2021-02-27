@@ -138,6 +138,7 @@ const Container = styled.header`
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
+    min-height: 78px;
 
     .fabioalencar {
       opacity: 1;

@@ -47,11 +47,11 @@ const Header = (props) => {
         <span className="bg-menu"></span>
         <section className="topbar">
           <div className="button hoverable">
-            <MouseFollow />
             <button onClick={openMenu} aria-label="Toggle menu" id="menu">
               <Icon icon="icon-menu" className="bg" />
               <Icon icon="icon-close" className="bg" />
             </button>
+            <MouseFollow />
           </div>
           <Linki href="/">
             <a className="fabioalencar" title="Fábio Alencar">
