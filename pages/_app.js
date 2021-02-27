@@ -32,15 +32,13 @@ const GlobalStyle = createGlobalStyle`
   font-style: normal;
   font-display: swap;
 }
-
-
    html{
     /* colors */
-    --color--dark-grey: #2D3142;
-    --color--light-grey: #F4F5F6;
-    --developer: #0496FF;
-    --default: #53EE4D;
-    --designer: #FC4264;
+    --color--dark-grey: #2d3142;
+    --color--light-grey: #f4f5f6;
+    --developer: #0496ff;
+    --default: #53ee4d;
+    --designer: #fc4264;
     --trinks: #f1850c;
     --vidaclass: #00b3d5;
     --runplace: #20a637;

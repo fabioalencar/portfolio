@@ -1,10 +1,7 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('/fonts/icomoon.eot?kcz2v5');
-  src:  url('/fonts/icomoon.eot?kcz2v5#iefix') format('embedded-opentype'),
-    url('/fonts/icomoon.ttf?kcz2v5') format('truetype'),
-    url('/fonts/icomoon.woff?kcz2v5') format('woff'),
-    url('/fonts/icomoon.svg?kcz2v5#icomoon') format('svg');
+  src: url('/fonts/icomoon.eot?kcz2v5');
+  src: url('/fonts/icomoon.eot?kcz2v5#iefix') format('embedded-opentype'), url('/fonts/icomoon.ttf?kcz2v5') format('truetype'), url('/fonts/icomoon.woff?kcz2v5') format('woff'), url('/fonts/icomoon.svg?kcz2v5#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -20,58 +17,58 @@ i {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.icon-Down:before {
+.icon-Down::before {
   content: "\e911";
   color: #0496ff;
 }
-.icon-menu:before {
+.icon-menu::before {
   content: "\e90e";
 }
-.icon-whatsapp:before {
+.icon-whatsapp::before {
   content: "\e90f";
 }
-.icon-close:before {
+.icon-close::before {
   content: "\e910";
 }
-.icon-design:before {
+.icon-design::before {
   content: "\e900";
 }
-.icon-dribbble:before {
+.icon-dribbble::before {
   content: "\e901";
 }
-.icon-git:before {
+.icon-git::before {
   content: "\e902";
 }
-.icon-github:before {
+.icon-github::before {
   content: "\e903";
 }
-.icon-html5:before {
+.icon-html5::before {
   content: "\e904";
 }
-.icon-illustrator:before {
+.icon-illustrator::before {
   content: "\e905";
 }
-.icon-js:before {
+.icon-js::before {
   content: "\e906";
 }
-.icon-linkedin:before {
+.icon-linkedin::before {
   content: "\e907";
 }
-.icon-photoshop:before {
+.icon-photoshop::before {
   content: "\e908";
 }
-.icon-search:before {
+.icon-search::before {
   content: "\e909";
 }
-.icon-text-width:before {
+.icon-text-width::before {
   content: "\e90a";
 }
-.icon-wordpress:before {
+.icon-wordpress::before {
   content: "\e90b";
 }
-.icon-api:before {
+.icon-api::before {
   content: "\e90c";
 }
-.icon-contrast:before {
+.icon-contrast::before {
   content: "\e90d";
 }

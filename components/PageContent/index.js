@@ -1,4 +1,3 @@
-import { ThemeProvider } from "styled-components";
 import Container from "./styles";
 
 const PageTitle = ({ children, context = "--default", contrast = "dark" }) => {

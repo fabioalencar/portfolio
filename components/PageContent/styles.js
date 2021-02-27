@@ -318,6 +318,18 @@ const Container = styled.section`
   }
 
   @media ${device.mobileL} {
+    .two-columns:nth-child(2) {
+      box-shadow: 8px 8px var(--developer);
+    }
+    .two-columns:nth-child(3) {
+      box-shadow: 8px 8px var(--designer);
+    }
+    .two-columns:nth-child(5) {
+      box-shadow: 8px 8px var(--developer);
+    }
+    .two-columns:nth-child(4) {
+      box-shadow: 8px 8px var(--designer);
+    }
     .image-full {
       margin-bottom: 20px;
     }

@@ -13,8 +13,7 @@ body {
 html, body {
   min-height: 100vh;
 }
-
-.banner > div{
+.banner > div {
   min-height: 500px;
 }
 .title {
@@ -22,8 +21,8 @@ html, body {
   margin-bottom: 40px;
   font-weight: normal;
 }
-.title span {
-  background-color: #53EE4D;
+.banner .title span {
+  background-color:#53ee4d;
   border-radius: 10px;
   padding: 5px 10px;
 }
@@ -42,9 +41,8 @@ strong {
   font-family: "quero_sansbold", sans-serif;
 }
 .cursor__ball {
-  transform: scale(0);
+    transform: scale(0);
 }
-
 .down {
   position: fixed;
   bottom: 30px;
@@ -80,12 +78,12 @@ strong {
   height: 800px;
   margin: auto;
   text-align: center;
-  color: #2D3142;
+  color: #2d3142;
   -webkit-box-pack: center;
   justify-content: center;
 }
 h1 span {
-  background-color: #53EE4D;
+  background-color: #53ee4d;
   border-radius: 10px;
   padding: 5px 10px;
 }
@@ -182,7 +180,7 @@ h1 span {
     text-align: left;
     min-height: 160px;
   }
-  .Typewritter{
+  .Typewritter {
     min-height: 160px;
   }
   .ctas {
