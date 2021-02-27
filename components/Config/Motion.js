@@ -1,16 +1,5 @@
 let easing = [0.175, 0.85, 0.42, 0.96];
 
-export const homeVariants = {
-  exit: { y: 0, opacity: 1, transition: { duration: 0.3, ease: easing } },
-  enter: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 0.5,
-      ease: easing,
-    },
-  },
-};
 export const variants = {
   exit: { y: 0, opacity: 0, transition: { duration: 0.5, ease: easing } },
   enter: {
@@ -18,28 +7,6 @@ export const variants = {
     opacity: 1,
     transition: {
       duration: 0.5,
-      ease: easing,
-    },
-  },
-};
-export const bgMenuVariants = {
-  exit: { y: 0, opacity: 0, transition: { duration: 0.3, ease: easing } },
-  enter: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 0.3,
-      ease: easing,
-    },
-  },
-};
-export const menuVariants = {
-  exit: { y: 0, opacity: 0, transition: { duration: 0.3, ease: easing } },
-  enter: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 0.3,
       ease: easing,
     },
   },
