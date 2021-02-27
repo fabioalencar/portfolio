@@ -21,7 +21,6 @@ class MyDocument extends Document {
               })(window,document,'script','dataLayer','GTM-KGHDVQ5');`,
             }}
           />
-          */}
           {/* End Google Tag Manager 
           {/* Google Tag Manager (noscript) */}
           <noscript
