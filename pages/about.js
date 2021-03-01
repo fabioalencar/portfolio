@@ -15,7 +15,7 @@ export default function Home() {
     <div className="container">
       <ConfigHead
         title="Who is Fábio Alencar?"
-        description="Entrepreneur and team leader for 8 years. Used to working
+        description="Entrepreneur and team leader for 8 years. I'm used to working
         remotely. Born in Rio de Janeiro and living in São Paulo,
         Brazil."
       />
@@ -72,7 +72,7 @@ export default function Home() {
                       Developer.
                     </h3>
                     <p>
-                      Post-graduated by ESPM in Marketing and Digital Design.
+                      Post-graduated from ESPM in Marketing and Digital Design.
                       Certified ScrumMaster® (CSM®). Studying Software
                       Engineering at FIAP.
                     </p>
@@ -93,9 +93,9 @@ export default function Home() {
                       building digital products.
                     </h3>
                     <p>
-                      Entrepreneur and team leader for 8 years. Used to working
-                      remotely. Born in Rio de Janeiro and living in São Paulo,
-                      Brazil.
+                      Entrepreneur and team leader for 8 years. I'm used to
+                      working remotely. Born in Rio de Janeiro and living in São
+                      Paulo, Brazil.
                     </p>
                   </div>
                 </ImageCard>
@@ -113,7 +113,7 @@ export default function Home() {
                     layout="fixed"
                   />
                   <span>
-                    Post-graduated by ESPM in{" "}
+                    Post-graduated from ESPM in{" "}
                     <strong>Marketing and Digital Design.</strong>
                   </span>
                 </Card>

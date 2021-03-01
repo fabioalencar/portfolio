@@ -55,7 +55,7 @@ export default function LizCocktails() {
                 </p>
                 <h4>Role</h4>
                 <p>
-                  My role was mostly development but I gave him some suggestion
+                  My role was mostly development but I gave him some suggestions
                   to responsiveness.
                 </p>
                 <p>Developed with:</p>

@@ -216,11 +216,11 @@ export default function Trinks() {
                 <div className="text">
                   <h3>Tools</h3>
                   <p>
-                    Figma is awesome! That been said...the team was using
-                    Sketch, Adobe XD and Invision to prototype and make UIs.
-                    Zeplin was the choice to hand-off to devs before my arrival.
-                    We get rid of the other tools and embraced figma's full
-                    cycle. No regrets!
+                    Figma is awesome! By the way...the team was using Sketch,
+                    Adobe XD and Invision to prototype and make UIs. Zeplin was
+                    the choice to hand-off to devs before my arrival. We get rid
+                    of the other tools and embraced figma's full cycle. No
+                    regrets!
                   </p>
                 </div>
               </ImageCard>
@@ -236,9 +236,9 @@ export default function Trinks() {
                   <h3>Figma thumbnail pattern</h3>
                   <p>
                     We created a pattern to all thumbnails in order to easily
-                    understand information about work been done. Now we can see
-                    status, squad, responsables and a quick brief of the project
-                    in a easy way. <br />
+                    understand information about work is being done. Now we can
+                    see status, squad, responsables and a quick brief of the
+                    project in a easy way. <br />
                     POs are thankful :)
                   </p>
                 </div>
@@ -253,9 +253,9 @@ export default function Trinks() {
                 <div className="text">
                   <h3>Online Workshops</h3>
                   <p>
-                    Sharing knowledge for me is almost as important than learn
-                    new things. It's important for individuals, team and company
-                    in general. Biweekly we organize online events to transform
+                    Sharing knowledge for me is almost as important as learn new
+                    things. It's important for individuals, team and company in
+                    general. Biweekly we organize online events to transform
                     tacit knowledge in explicit, we record it in video and share
                     it with the entire company.
                   </p>

@@ -58,9 +58,9 @@ export default function Vidaclass() {
                 </p>
                 <h4>Role</h4>
                 <p>
-                  As the cofounder of Interativ (Digital Agency) I was used to
-                  wear many hats. This is the project where I definitively got
-                  over it. I built all the UX and frontend while leading digital
+                  As the cofounder of Interativ (Digital Agency) I used to wear
+                  many hats. This is the project where I definitively got over
+                  it. I built all the UX and frontend while leading digital
                   marketing planning and operations. 🥵
                 </p>
               </div>
@@ -110,7 +110,7 @@ export default function Vidaclass() {
                 </p>
                 <p>
                   You can see a persona below (João) who is not used to digital
-                  experiencies. It was clear the digital strategie should focus
+                  experiences. It was clear the digital strategie should focus
                   on personas wich could easily understand the value proposition
                   of the service without hesitations.
                 </p>

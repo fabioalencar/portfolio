@@ -80,9 +80,10 @@ export default function RedesignTrinks() {
               <h3>Process</h3>
               <div className="text">
                 <p>
-                  Beauty services were not something that I was very familiar to
-                  (even my own hair I used to cut at home, but lack of previous
-                  experience is never an excuse for a good design work 🙂).
+                  Beauty services were not something that I was very familiar
+                  with (even my own hair I used to cut at home, but lack of
+                  previous experience is never an excuse for a good design work
+                  🙂).
                 </p>
                 <p>
                   I started by capturing information from all stakeholders. Many

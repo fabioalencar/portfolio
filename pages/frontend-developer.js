@@ -16,7 +16,7 @@ export default function Home({ cases }) {
     <div className="container">
       <ConfigHead
         title="Senior Frontend Developer - Fábio Alencar"
-        description="Problem solver based in user needs and high performance. MBA in
+        description="Problem solver based on user's needs and high performance. MBA in
         Software Engineering and Certified ScrumMaster® (CSM®)."
       />
       <Header />
@@ -28,8 +28,8 @@ export default function Home({ cases }) {
                 Frontend <span>Developer</span>
               </h1>
               <p className="subtitle">
-                Problem solver based in user needs and high performance. MBA in
-                Software Engineering and Certified ScrumMaster® (CSM®).
+                Problem solver based on user's needs and high performance. MBA
+                in Software Engineering and Certified ScrumMaster® (CSM®).
               </p>
             </header>
             <section>
@@ -51,7 +51,7 @@ export default function Home({ cases }) {
               <div className="cards">
                 <Card>
                   <p>
-                    <strong> Solve problems</strong> based in user needs and
+                    <strong>Solving problems</strong> based in user needs and
                     high performance.
                   </p>
                 </Card>
@@ -74,19 +74,19 @@ export default function Home({ cases }) {
                 </Card>
                 <Card>
                   <p>
-                    <strong>Implement SEO</strong> and use strategies to get
+                    <strong>Implementing SEO</strong> and use strategies to get
                     better results on SERPs.
                   </p>
                 </Card>
                 <Card>
                   <p>
-                    <strong>Use motion</strong> through code to leverage user
+                    <strong>Using motion</strong> through code to leverage user
                     experience.
                   </p>
                 </Card>
                 <Card>
                   <p>
-                    <strong>Implement tests</strong> to secure reliabilty.
+                    <strong>Implementing tests</strong> to secure reliabilty.
                   </p>
                 </Card>
                 <Card>

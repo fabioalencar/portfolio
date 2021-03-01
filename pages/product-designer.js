@@ -53,52 +53,53 @@ export default function Home({ cases }) {
               <div className="cards">
                 <Card>
                   <p>
-                    <strong>Explore concepts</strong> to find promising
+                    <strong>Exploring concepts</strong> to find promising
                     directions that address both human and business needs.
                   </p>
                 </Card>
                 <Card>
                   <p>
-                    <strong>Build prototypes</strong> to assist in user
+                    <strong>Building prototypes</strong> to assist in user's
                     research, using low to high-fidelity techniques.
                   </p>
                 </Card>
                 <Card>
                   <p>
-                    <strong>Collaborate</strong> with business, product
+                    <strong>Collaborating</strong> with business, product
                     management, UX designers and engineering partners to lead
                     and develop product and design strategies.
                   </p>
                 </Card>
                 <Card>
                   <p>
-                    <strong> Facilitate collaboration</strong> between teams and
-                    individuals to evolve the needs of the product alongside the
-                    design system.
+                    <strong> Facilitating collaboration</strong> between teams
+                    and individuals to evolve the needs of the product alongside
+                    the design system.
                   </p>
                 </Card>
                 <Card>
                   <p>
-                    <strong>Support multiple projects</strong> simultaneously
+                    <strong>Supporting multiple projects</strong> simultaneously
                     while meeting tight deadlines.
                   </p>
                 </Card>
                 <Card>
                   <p>
-                    <strong>Advise frontend engineers </strong>on UI
+                    <strong>Advising frontend engineers </strong>on UI
                     implementation best practices.
                   </p>
                 </Card>
                 <Card>
                   <p>
-                    <strong>Advocate for the user</strong>, and drive a holistic
-                    UX vision that inspires the team to push on the status quo.
+                    <strong>Advocating for the user</strong>, and drive a
+                    holistic UX vision that inspires the team to push on the
+                    status quo.
                   </p>
                 </Card>
                 <Card>
                   <p>
-                    <strong>Complain</strong> about devs not building it exactly
-                    like the prototypes.
+                    <strong>Complaining</strong> about devs not building it
+                    exactly like the prototypes.
                     <small>
                       Sorry devs. I really care and I believe you can do it.
                     </small>
