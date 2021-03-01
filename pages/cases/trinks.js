@@ -216,11 +216,11 @@ export default function Trinks() {
                 <div className="text">
                   <h3>Tools</h3>
                   <p>
-                    Figma is awesome! By the way...the team was using Sketch,
-                    Adobe XD and Invision to prototype and make UIs. Zeplin was
-                    the choice to hand-off to devs before my arrival. We get rid
-                    of the other tools and embraced figma's full cycle. No
-                    regrets!
+                    The team was using Sketch, Adobe XD and Invision to
+                    prototype and make UIs. Zeplin was the choice to hand-off to
+                    devs before my arrival. We get rid of the other tools and
+                    embraced figma's full cycle. No regrets. "Figma is awesome!"
+                    That's what she said...
                   </p>
                 </div>
               </ImageCard>
