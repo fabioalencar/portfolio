@@ -59,7 +59,7 @@ export default function Home({ cases }) {
                 </Card>
                 <Card>
                   <p>
-                    <strong>Building prototypes</strong> to assist in user's
+                    <strong>Building prototypes</strong> to assist in user
                     research, using low to high-fidelity techniques.
                   </p>
                 </Card>
