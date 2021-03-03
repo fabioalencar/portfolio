@@ -162,7 +162,7 @@ export default function Home() {
                 Interface Design by <strong>Infnet</strong>; Advanced English
                 Language by <strong>Cultura Inglesa</strong> (RJ).
               </p>
-              <Button href="cv_fabio-alencar.pdf">Resumé</Button>
+              <Button href="resume_fabio-alencar.pdf">Resumé</Button>
             </section>
             <section className="stripe">
               <div>

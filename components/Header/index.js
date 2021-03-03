@@ -127,7 +127,7 @@ const Header = (props) => {
               </Linki>
             </li>
             <li>
-              <a href="/cv_fabio-alencar.pdf" target="_blank" title="Resumé">
+              <a href="/resume_fabio-alencar.pdf" target="_blank" title="Resumé">
                 Resumé
               </a>
             </li>
