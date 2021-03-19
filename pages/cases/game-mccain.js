@@ -125,7 +125,7 @@ export default function McCain() {
                 <p>
                   I decided for a view from top (the same as Sonic wings). Would
                   be harder to work in a "3D like" perspective with the deadline
-                  we had and the top view provides a good visility from the
+                  we had and the top view provides a good visibility from the
                   scenary.
                 </p>
                 <h4>Development</h4>

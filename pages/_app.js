@@ -50,6 +50,8 @@ const GlobalStyle = createGlobalStyle`
     --riobike: #00993d;
     --mccain: #fccc4c;
     --embaixador: #dda44f;
+    --musicalismo: #de7a31;
+    --saara: #451362;
     
   }
   ::selection {

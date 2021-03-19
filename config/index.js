@@ -47,24 +47,8 @@ export const cases = {
       categories: ["design", "frontend"],
       status: true,
     },
-    /* {
+    {
       id: 6,
-      title: "Everyday is a day to sing",
-      subtitle: "Concept: UX and MVP Building for instruments marketplace",
-      path: "musicalismo",
-      categories: ["design"],
-      status: false,
-    },
-    {
-      id: 7,
-      title: "Changing the world",
-      subtitle: "Volunteer work in a high social impact organization",
-      path: "glocal",
-      categories: ["design", "frontend"],
-      status: false,
-    },
-    {
-      id: 8,
       title: "We make you go further",
       subtitle: "Website for gas station franchise",
       path: "saara",
@@ -72,12 +56,28 @@ export const cases = {
       status: false,
     },
     {
-      id: 9,
+      id: 7,
       title: "Riobike courier",
       subtitle: "Brand/UI/Wordpress development",
       path: "riobike",
       categories: ["design", "frontend"],
       status: false,
-    },*/
+    } /*,
+    {
+      id: 8,
+      title: "Runplace: Achieve your best",
+      subtitle: "Brand/UI/Wordpress development",
+      path: "runplace",
+      categories: ["design", "frontend"],
+      status: false,
+    } 
+    {
+      id: 9,
+      title: "Changing the world",
+      subtitle: "Volunteer work in a high social impact organization",
+      path: "glocal",
+      categories: ["design", "frontend"],
+      status: false,
+    } ,*/,
   ],
 };

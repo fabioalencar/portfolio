@@ -37,6 +37,13 @@ export default function handler(req, res) {
         path: "liz-cocktails",
         categories: ["design", "frontend"],
       },
+      {
+        id: 6,
+        title: "Musicalismo",
+        subtitle: "Buy and sell music gear - Marketplace concept.",
+        path: "musicalismo",
+        categories: ["design"],
+      },
     ],
   };
   res.status(200).json(cases);

@@ -84,7 +84,7 @@ export default function LizCocktails() {
             </section>
           </PageContent>
 
-          <CaseNav id={1} />
+          <CaseNav id={6} />
         </motion.div>
       </motion.div>
       <Footer />
