@@ -171,7 +171,7 @@ export default function McCain() {
             </section>
           </PageContent>
 
-          <CaseNav id={4} />
+          <CaseNav id={5} />
         </motion.div>
       </motion.div>
       <Footer />

@@ -39,6 +39,13 @@ export default function handler(req, res) {
       },
       {
         id: 6,
+        title: "Easy Baby",
+        subtitle: "Buy and sell music gear - Marketplace concept.",
+        path: "easy-baby",
+        categories: ["design", "frontend"],
+      },
+      {
+        id: 7,
         title: "Musicalismo",
         subtitle: "Buy and sell music gear - Marketplace concept.",
         path: "musicalismo",

@@ -5,15 +5,17 @@ const Container = styled.section`
   padding: 0 30px;
   ul {
     padding: 0;
-    margin: 0 0 30px;
-
+    margin: 0 auto 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1600px;
     li {
+      width: 750px;
+      height: 500px;
       list-style: none;
       background: var(--color--dark-grey);
       padding: 50px;
-      width: 100%;
-      height: 450px;
-      max-width: 1200px;
       border-radius: 10px;
       display: flex;
       flex-direction: column;
@@ -33,22 +35,13 @@ const Container = styled.section`
         z-index: 1;
         color: #fff;
         text-decoration: none;
-        :hover {
-          .image {
-            :before {
-              opacity: 0;
-            }
-          }
-        }
       }
 
       h2 {
-        width: 40%;
         font-size: 1.3em;
-        margin-bottom: 0;
+        margin: 0;
       }
       p {
-        width: 30%;
         font-size: 0.8em;
         line-height: 1.3em;
       }
@@ -71,7 +64,11 @@ const Container = styled.section`
         left: 0;
         right: 0;
         z-index: 2;
-        padding: 50px;
+        padding: 0 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        opacity: 0;
       }
       .image {
         :before {
@@ -82,7 +79,7 @@ const Container = styled.section`
           left: 0;
           right: 0;
           background-color: var(--color--dark-grey);
-          opacity: 0.6;
+          opacity: 0;
           z-index: 1;
           transition: all 0.3s;
         }
@@ -94,11 +91,19 @@ const Container = styled.section`
         left: 0;
         right: 0;
         z-index: 0;
+        img {
+          object-fit: cover;
+        }
       }
 
       :hover {
-        :before {
-          opacity: 0;
+        .image {
+          :before {
+            opacity: 0.8;
+          }
+        }
+        .content {
+          opacity: 1;
         }
         span {
           box-shadow: -8px 8px #fff;
@@ -107,80 +112,116 @@ const Container = styled.section`
     }
   }
 
-  @media (max-width: var(--laptop)) {
-    a {
-      h2 {
-        width: 60% !important;
+  @media ${device.laptopL} {
+    ul {
+      li {
+        width: 700px;
+        height: 465px;
       }
-      p {
-        width: 50% !important;
+    }
+  }
+
+  @media ${device.laptopM} {
+    ul {
+      li {
+        width: 620px;
+        height: 412px;
+      }
+    }
+  }
+
+  @media ${device.laptopS} {
+    ul {
+      li {
+        width: 575px;
+        height: 380px;
+      }
+    }
+  }
+
+  @media ${device.laptop} {
+    ul {
+      li {
+        width: 450px;
+        height: 300px;
+        h2 {
+          font-size: 0.9em;
+        }
+        p {
+          font-size: 0.55em;
+        }
+        span {
+          padding: 15px;
+        }
       }
     }
   }
 
   @media ${device.tablet} {
-    a {
-      h2 {
-        width: 72% !important;
-      }
-      p {
-        width: 60% !important;
+    ul {
+      li {
+        width: 750px;
+        height: 500px;
+        h2 {
+          font-size: 1.3em;
+        }
+        p {
+          font-size: 1em;
+        }
+        span {
+          padding: 20px;
+        }
       }
     }
   }
   @media ${device.mobileL} {
     padding: 0;
     margin: 30px;
-    li {
-      background-size: cover !important;
-      background-position-x: -200px !important;
-      min-height: 50vh !important;
-      a {
-        justify-content: space-between;
-        :hover {
-          .image {
-            :before {
-              opacity: 1;
-            }
-          }
-        }
-        div {
-        }
+    ul {
+      li {
+        width: 400px;
+        height: 235px;
+
+        background-size: cover !important;
+        background-position-x: -200px !important;
         h2 {
-          width: 100%;
           font-size: 0.8em;
         }
         p {
-          width: 80%;
           font-size: 0.5em;
         }
         span {
           width: 145px;
           font-size: 0.5em;
           padding: 15px;
-        }
-        .image {
-          > div {
-            left: -400px;
-            top: 0px;
-            position: absolute;
-            z-index: 0;
-          }
-          :before {
-            opacity: 0.75;
-          }
+          display: none;
         }
       }
     }
   }
   @media ${device.mobileM} {
-    li {
-      min-height: 400px !important;
+    ul {
+      li {
+        width: 315px;
+        height: 210px;
+        h2 {
+          font-size: 0.6em;
+        }
+      }
     }
   }
   @media ${device.mobileS} {
-    li {
-      min-height: 450px !important;
+    ul {
+      li {
+        width: 260px;
+        height: 175px;
+        .content {
+          padding: 0 30px;
+        }
+        h2 {
+          font-size: 0.5em;
+        }
+      }
     }
   }
 `;

@@ -336,7 +336,7 @@ export default function Trinks() {
               </div>
             </section>
           </PageContent>
-          <CaseNav id={2} />
+          <CaseNav id={1} />
         </motion.div>
       </motion.div>
       <Footer />

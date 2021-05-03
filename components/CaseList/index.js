@@ -33,11 +33,10 @@ export default function CaseList({ cases, filter }) {
                 </div>
                 <div className="image">
                   <Image
-                    src={`/images/cases/${item.path}/case-cover.png`}
+                    src={`/images/cases/${item.path}/case-thumb.png`}
                     alt={item.title}
-                    width={1200}
-                    height={450}
-                    layout="fixed"
+                    width={750}
+                    height={500}
                     quality="70"
                   />
                 </div>

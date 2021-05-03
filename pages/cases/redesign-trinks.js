@@ -232,7 +232,7 @@ export default function RedesignTrinks() {
             </section>
           </PageContent>
 
-          <CaseNav id={3} />
+          <CaseNav id={2} />
         </motion.div>
       </motion.div>
       <Footer />

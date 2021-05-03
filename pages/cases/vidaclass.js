@@ -223,7 +223,7 @@ export default function Vidaclass() {
             </section>
           </PageContent>
 
-          <CaseNav id={5} />
+          <CaseNav id={4} />
         </motion.div>
       </motion.div>
       <Footer />

@@ -174,7 +174,7 @@ export default function Riobike() {
             </section>
           </PageContent>
 
-          <CaseNav id={1} />
+          <CaseNav id={8} />
         </motion.div>
       </motion.div>
       <Footer />

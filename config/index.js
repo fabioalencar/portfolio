@@ -22,14 +22,15 @@ export const cases = {
       categories: ["design"],
       status: true,
     },
+
     {
       id: 3,
-      title: "Awarded interactive experience",
-      subtitle: "Game McCain - APAS 2019 - UI and Development",
-      path: "game-mccain",
+      title: "Easy Baby",
+      subtitle: "Brand, UX, UI and Frontend for Easy Baby MVP.",
+      path: "easy-baby",
       categories: ["design", "frontend"],
-      status: true,
     },
+
     {
       id: 4,
       title: "A new way of taking care of health",
@@ -40,6 +41,14 @@ export const cases = {
     },
     {
       id: 5,
+      title: "Awarded interactive experience",
+      subtitle: "Game McCain - APAS 2019 - UI and Development",
+      path: "game-mccain",
+      categories: ["design", "frontend"],
+      status: true,
+    },
+    {
+      id: 6,
       title: "Liz Cocktails Website",
       subtitle:
         "Responsive Website built for Liz Cocktails & Co  with CMS Wordpress.",
@@ -48,7 +57,7 @@ export const cases = {
       status: true,
     },
     {
-      id: 6,
+      id: 7,
       title: "We make you go further",
       subtitle: "Website for gas station franchise",
       path: "saara",
@@ -56,7 +65,7 @@ export const cases = {
       status: false,
     },
     {
-      id: 7,
+      id: 8,
       title: "Riobike courier",
       subtitle: "Brand/UI/Wordpress development",
       path: "riobike",

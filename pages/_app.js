@@ -52,6 +52,7 @@ const GlobalStyle = createGlobalStyle`
     --embaixador: #dda44f;
     --musicalismo: #de7a31;
     --saara: #451362;
+    --easy-baby: #57d6ef;
     
   }
   ::selection {
